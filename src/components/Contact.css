@@ -1,0 +1,14 @@
+.contactContent {
+    padding: 0 2em;
+    font-size: 18px;
+    line-height: 1.25em;
+}
+
+.contactContent a {
+    color: white;
+    transition: color 0.25s ease-in-out;
+}
+
+.contactContent a:hover {
+    color: #f5762c;
+}
