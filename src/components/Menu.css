@@ -1,0 +1,84 @@
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: -100vw;
+    bottom: 0;
+    background-color: #228c77;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    pointer-events: none;
+    z-index: 10;
+    transition: right 0.5s ease-in-out;
+}
+
+.menu.active {
+    right: 0;
+    pointer-events: auto;
+}
+
+.menuContent {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 2em;
+}
+
+.menuNav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.menuNav a {
+    color: white;
+    text-decoration: none !important;
+    font-size: 70px;
+    transition: color 0.25s ease-in-out;
+    letter-spacing: 0.015em;
+}
+
+.menuNav a:hover {
+    color: #f5762c;
+}
+
+.menuNav > li:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+.menuCloseContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.menuCloseBtn {
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    padding: 0;
+    transition: color 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.menuCloseBtn:hover {
+    color: #f5762c;
+}
+
+.menuCloseBtn:focus {
+    color: #f5762c;
+    outline: none;
+}
+
+.menuCloseBtn > svg:focus {
+    outline: none;
+}
