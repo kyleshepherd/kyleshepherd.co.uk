@@ -15,6 +15,10 @@
     padding-top: 4em;
 }
 
+.aboutText > p {
+    margin-top: 0;
+}
+
 .portrait {
     width: 100%;
     border-radius: 100%;
