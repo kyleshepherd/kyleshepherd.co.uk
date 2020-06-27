@@ -33,6 +33,8 @@ function About () {
               <li>Tailwind CSS</li>
             </ul>
           </div>
+
+          <a className="cvBtn" href="/Kyle-Shepherd-CV.pdf" target="_blank" rel="noopener">View my CV</a>
         </div>
 
         <div>
