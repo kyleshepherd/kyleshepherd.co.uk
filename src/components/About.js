@@ -20,6 +20,19 @@ function About () {
             clients. I have recently joined Builtbycactus, a Cornish development agency creating a multitude of
             applications using Laravel, React, Ionic and Wordpress.
           </p>
+
+          <div className="skillList">
+            <h3>Skills & Technologies</h3>
+            <ul>
+              <li>Unity + C#</li>
+              <li>Version Control (Git + SVN)</li>
+              <li>Scrum + Agile</li>
+              <li>Trello</li>
+              <li>HTML/CSS/PHP/ES6</li>
+              <li>React</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
         </div>
 
         <div>
