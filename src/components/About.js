@@ -1,8 +1,9 @@
 import React from 'react'
+import PageHeader from './PageHeader'
 
 function About () {
   return (
-    <h1>About</h1>
+    <PageHeader pageTitle="About"/>
   )
 }
 
