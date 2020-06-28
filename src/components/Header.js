@@ -22,7 +22,10 @@ function Header () {
             </h1>
           </div>
 
-          <div className="navBtn" onClick={handleOpen}/>
+          <div className="navBtn" onClick={handleOpen}>
+            <div className="navBtnIcon"/>
+            Menu
+          </div>
         </div>
       </header>
       <Menu isOpen={showMenu} closeMenu={handleClose}/>
