@@ -3,34 +3,30 @@ import './Header.css'
 import { Link } from 'react-router-dom'
 import Menu from './Menu'
 
-function Header () {
+function Header() {
+	const [showMenu, setShowMenu] = useState(false)
 
-  const [showMenu, setShowMenu] = useState(false)
+	const handleClose = () => setShowMenu(false)
+	const handleOpen = () => setShowMenu(true)
 
-  const handleClose = () => setShowMenu(false)
-  const handleOpen = () => setShowMenu(true)
+	return (
+		<React.Fragment>
+			<header>
+				<div className="headerContainer">
+					<div className="siteTitle">
+						<h1>
+							<Link to="/">Kyle Shepherd</Link>
+						</h1>
+					</div>
 
-  return (
-    <React.Fragment>
-      <header>
-        <div className="headerContainer">
-          <div className="siteTitle">
-            <h1>
-              <Link to="/">
-                Kyle Shepherd
-              </Link>
-            </h1>
-          </div>
-
-          <div className="navBtn" onClick={handleOpen}>
-            <div className="navBtnIcon"/>
-            Menu
-          </div>
-        </div>
-      </header>
-      <Menu isOpen={showMenu} closeMenu={handleClose}/>
-    </React.Fragment>
-  )
+					<button className="navBtn" onClick={handleOpen}>
+						<div className="navBtnIcon" />
+					</button>
+				</div>
+			</header>
+			<Menu isOpen={showMenu} closeMenu={handleClose} />
+		</React.Fragment>
+	)
 }
 
 export default Header
