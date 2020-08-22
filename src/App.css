@@ -1,7 +1,18 @@
 body {
-    font-family: 'Questrial', sans-serif;
-    max-width: 1440px;
-    margin: 0 auto;
-    background-color: #228c77;
-    color: white;
+	font-family: 'Questrial', sans-serif;
+	max-width: 1440px;
+	margin: 0 auto;
+	background-color: #228c77;
+	color: white;
+}
+
+::-moz-selection {
+	/* Code for Firefox */
+	color: white;
+	background: #f5762c;
+}
+
+::selection {
+	color: white;
+	background: #f5762c;
 }
