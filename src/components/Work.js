@@ -10,6 +10,18 @@ function Work() {
 			<div className="workContainer">
 				<h2 className="projectCatHeader">Web Development</h2>
 				<Project
+					projectTitle="Statify"
+					imageSrc="/images/statify.png"
+					imageAlt="Statify"
+					projectText={
+						"I've wanted to make something using the Spotify API for a while and finally got around to it with this project. The project is built using React and the idea is that it takes a users Top Tracks from the last 6 months and uses the `/audio-features` API endpoint to analyse your music taste." +
+						' \n' +
+						'I posted about the project on Twitter and it ended up getting over 800 views in one evening which was a great response'
+					}
+					projectLink="https://common-film-finder.kyleshepherd.co.uk"
+					linkText="View Project"
+				/>
+				<Project
 					projectTitle="Common Film Finder"
 					imageSrc="/images/cff.png"
 					imageAlt="Common Film Finder"
@@ -18,7 +30,7 @@ function Work() {
 						' \n' +
 						'This was a nice and simple first project to wrap my head around React whilst also making something from start to finish.'
 					}
-					projectLink="https://common-film-finder.co.uk"
+					projectLink="https://common-film-finder.kyleshepherd.co.uk"
 					linkText="View Project"
 				/>
 				<Project
