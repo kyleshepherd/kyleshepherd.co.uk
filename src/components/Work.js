@@ -20,6 +20,7 @@ function Work() {
 					}
 					projectLink="https://common-film-finder.kyleshepherd.co.uk"
 					linkText="View Project"
+					repoLink="https://github.com/kyleshepherd/spotify-analyser"
 				/>
 				<Project
 					projectTitle="Common Film Finder"
@@ -32,6 +33,7 @@ function Work() {
 					}
 					projectLink="https://common-film-finder.kyleshepherd.co.uk"
 					linkText="View Project"
+					repoLink="https://github.com/kyleshepherd/common-film-finder"
 				/>
 				<Project
 					projectTitle="Tarkov TK Discord Bot"
