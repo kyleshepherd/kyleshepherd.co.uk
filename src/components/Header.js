@@ -21,6 +21,7 @@ function Header() {
 
 					<button className="navBtn" onClick={handleOpen}>
 						<div className="navBtnIcon" />
+						<p>MENU</p>
 					</button>
 				</div>
 			</header>
