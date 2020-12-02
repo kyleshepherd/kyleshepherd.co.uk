@@ -5,13 +5,13 @@ function HomeBanner() {
 	return (
 		<div className="homeBanner">
 			<h2 className="role">
-				Web and Game<br></br>Developer
+				Full Stack Web<br/>
+				Developer
 			</h2>
 			<h3>
 				<span>Interested in</span>
 				<br></br>
-				Frontend Web Development<br></br>
-				Gameplay and UI Programming
+				Frontend & Full Stack<br/> Web Development
 			</h3>
 			<h3>
 				<span>Based in</span>
