@@ -5,8 +5,7 @@ function HomeBanner() {
 	return (
 		<div className="homeBanner">
 			<h2 className="role">
-				Full Stack Web<br/>
-				Developer
+				Frontend Engineer
 			</h2>
 			<h3>
 				<span>Interested in</span>
@@ -21,7 +20,7 @@ function HomeBanner() {
 			<h3>
 				<span>Currently</span>
 				<br></br>
-				Web Developer at Builtbycactus
+				Frontend Engineer at SOON_
 			</h3>
 		</div>
 	)

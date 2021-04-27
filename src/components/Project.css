@@ -18,6 +18,10 @@
 	flex-basis: 47.5%;
 }
 
+.projectImg {
+	text-align: center;
+}
+
 .projectImg > img {
 	max-width: 100%;
 	display: block;

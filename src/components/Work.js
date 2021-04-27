@@ -9,6 +9,14 @@ function Work() {
 			<PageHeader pageTitle="Work" />
 			<div className="workContainer">
 				<h2 className="projectCatHeader">Web Development</h2>
+        <Project
+					projectTitle="SOON_"
+					imageSrc="/images/soon.jpeg"
+					imageAlt="SOON_ Logo"
+					projectText={
+						`I'm currently working at SOON_, a London-based digital agency with a variety of international clients, as a Frontend Engineer. My role involves building components and pages for projects using Svelte or React, whilst also reviewing peers code before conducting merges and deploys.`
+					}
+				/>
 				<Project
 					projectTitle="Statify"
 					imageSrc="/images/statify.png"
@@ -52,7 +60,7 @@ function Work() {
 					imageSrc="/images/bbc.jpeg"
 					imageAlt="Builtbycactus Logo"
 					projectText={
-						'I currently work at Builtbycactus as a junior web developer. Whilst here, the main client I’ve been working for has been Zoomz, a coffee pre-ordering app launching in New Zealand. For this client, I’ve worked on a Laravel backend system and web-app, a WooCommerce shop and a mobile app built using Ionic. I’ve learnt a great deal of new languages and frameworks since starting at Builtbycactus and it’s really opened my eyes to new methods and approaches to problems.\n'
+						'I previously worked at Builtbycactus as a web developer. Whilst here, the main client I worked on Zoomz, a coffee pre-ordering app launching in New Zealand. For this client, I worked on a Laravel backend system and web-app, a WooCommerce shop and a mobile app built using Ionic. I learnt a great deal of new languages and frameworks since starting at Builtbycactus and it really opened my eyes to new methods and approaches to problems.\n'
 					}
 				/>
 				<Project

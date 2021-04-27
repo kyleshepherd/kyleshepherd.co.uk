@@ -15,8 +15,9 @@ function About () {
             competitive multiplayer games to third person shooters. <br/><br/>
             During my final year of university, I secured a web development internship with a local agency and proceeded
             to work there full time after graduating, working on large scale Wordpress websites for a variety of
-            clients. I have recently joined Builtbycactus, a Cornish development agency creating a multitude of
-            applications using Laravel, React, Ionic and Wordpress.
+            clients.
+            <br/><br/>
+            I'm currently at London-based digital agency SOON_, working on projects using Svelte and React as our main frontend frameworks.
           </p>
 
           <div className="skillList">
@@ -24,6 +25,7 @@ function About () {
             <ul>
               <li>HTML/CSS/PHP/ES6</li>
               <li>React.js + Gatsby.js</li>
+              <li>Svelte</li>
               <li>Tailwind CSS</li>
               <li>AWS</li>
               <li>WordPress</li>
