@@ -10,6 +10,17 @@ function Work() {
 			<div className="workContainer">
 				<h2 className="projectCatHeader">Web Development</h2>
         <Project
+					projectTitle="Smile At Ur Phone"
+					imageSrc="/images/saup.png"
+					imageAlt="Smile At Ur Phone homepage"
+					projectText={
+						`I walked past someone and saw them smile at their phone and thought to myself what they could be smiling at. I then decided to make a site to catalogue the various reasons people smile at their phone. \n Users can submit their reason(s) and also view other random reasons that have been submitted. The site is built using Svelte + Sapper and uses Firestore for the storage of reasons.`
+					}
+          projectLink="https://smileaturphone.com"
+					linkText="View Project"
+					repoLink="https://github.com/kyleshepherd/smileaturphone-frontend"
+				/>
+        <Project
 					projectTitle="SOON_"
 					imageSrc="/images/soon.jpeg"
 					imageAlt="SOON_ Logo"
