@@ -85,6 +85,16 @@ function Work() {
 					}
 				/>
 				<h2 className="projectCatHeader">Game Development</h2>
+        <Project
+					projectTitle="Rhythm Skate - First ever NFT iOS game"
+					imageSrc="/images/rhythm-skate.jpeg"
+					imageAlt="Rhythm Skate NFT"
+					projectText={
+						'After collaborating with Whoopi on Whoop This Arcade, we spoke about porting the game to mobile devices at the time, but life took over for a while. At the end of 2020 we got back into it due to a partnership between Whoopi\'s agency, IAMSOUND, and NFT martetplace ZORA.\nThe plan was to port the game to iOS using Testflight to sell access to the game as an NFT. It was a bit of a wild ride with having to learn about NFTs and the blockchain whilst rewriting 2 year old code and adding new features we didn\'t have time for in 2018.\nWe managed to get it done by the short deadline and were happy to have a bunch of bids on day 1. It was a great experience working with Whoopi and Myk again, and seeing the game a bit more out in the wild made the hard work worth it.'
+					}
+          projectLink="https://zora.co/whoopi/999"
+          linkText="View NFT"
+				/>
 				<Project
 					projectTitle="Still"
 					imageSrc="/images/still.gif"
