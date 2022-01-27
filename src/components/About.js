@@ -9,7 +9,7 @@ function About() {
       <div className="aboutContent">
         <div className="aboutText">
           <p>
-            I’m Kyle, a Front End Engineer currently based in Falmouth, UK. I
+            I’m Kyle, a Front End Engineer currently based in Nottingham, UK. I
             studied Games Development at Falmouth University, specialising in
             Programming and graduating in 2019. During my time at university, I
             worked on 5 game projects in interdisciplinary teams, these projects

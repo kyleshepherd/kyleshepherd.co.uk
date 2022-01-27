@@ -18,7 +18,7 @@ function HomeBanner() {
       <h3>
         <span>Based in</span>
         <br></br>
-        Falmouth, UK
+        Nottingham, UK
       </h3>
     </div>
   );
