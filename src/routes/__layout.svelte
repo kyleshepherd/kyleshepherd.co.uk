@@ -1,3 +1,7 @@
+<script lang="ts">
+  import Header from "../components/Header/Header.svelte";
+</script>
+
 <style lang="scss">
   :global {
     @import "../styles/global.scss";
@@ -11,5 +15,6 @@
 </style>
 
 <main>
+  <Header />
   <slot />
 </main>

@@ -1,7 +1,15 @@
 <script lang="ts">
+  import { createEventDispatcher } from "svelte";
+
   import type { MenuItem } from "../MenuList/MenuList.svelte";
 
   export let item: MenuItem;
+
+  const dispatch = createEventDispatcher();
+
+  const clickItem = () => {
+    dispatch("clickItem");
+  };
 </script>
 
 <style lang="scss">
@@ -17,4 +25,4 @@
   }
 </style>
 
-<a href={item.href} class="menu-list-item">{item.title}</a>
+<a on:click={clickItem} href={item.href} class="menu-list-item">{item.title}</a>

@@ -58,7 +58,7 @@
   }
 </style>
 
-<div class="menu" transition:slide={{ duration: 500, easing: circInOut }}>
+<div class="menu" transition:slide={{ duration: 300, easing: circInOut }}>
   <div class="menu--top-wrapper">
     <div class="menu--header">
       <button
@@ -71,7 +71,7 @@
       </button>
     </div>
     <div class="menu--content">
-      <MenuList />
+      <MenuList on:clickItem={closeMenu} />
     </div>
   </div>
   <div class="menu--footer">Social Links</div>
