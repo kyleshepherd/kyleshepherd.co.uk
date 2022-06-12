@@ -4,12 +4,9 @@
   }
 
   main {
-    position: relative;
-    max-width: 56em;
-    background-color: $light;
-    padding: 2em;
+    max-width: $lg;
+    padding: 1em;
     margin: 0 auto;
-    box-sizing: border-box;
   }
 </style>
 
