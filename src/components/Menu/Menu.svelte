@@ -41,16 +41,10 @@
     &--close-menu {
       border: none;
       padding: 0;
-      margin: 0.75rem 0 0;
       background: none;
       color: $light;
-      font-size: 3.5rem;
       transition: color 0.2s;
-      line-height: 0.5;
       position: relative;
-      @include breakpoint(sm) {
-        margin: 1rem 0 0;
-      }
       &:hover {
         color: $green;
       }
@@ -99,7 +93,14 @@
         class="menu--close-menu"
         on:click={closeMenu}
       >
-        <span class="menu--close-menu__wrapper"> + </span>
+        <span class="menu--close-menu__wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"
+            ><path
+              fill="currentColor"
+              d="M22.5 38V25.5H10V22.5H22.5V10H25.5V22.5H38V25.5H25.5V38Z"
+            /></svg
+          >
+        </span>
       </button>
     </div>
     <div class="menu--content">
