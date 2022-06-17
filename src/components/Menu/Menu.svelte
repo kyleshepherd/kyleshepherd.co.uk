@@ -21,9 +21,13 @@
     background-color: $orange;
     display: flex;
     flex-direction: column;
+    &::selection {
+      background-color: $green;
+    }
+
     &--top-wrapper {
       max-width: $xl;
-      padding: 1em;
+      padding: 1em 1.5rem;
       margin: 0 auto;
       display: flex;
       width: 100%;
@@ -66,17 +70,17 @@
       margin-bottom: 0.75rem;
       display: flex;
       justify-content: center;
-      gap: 1.5rem;
+      gap: 1rem;
 
       @include breakpoint(sm) {
         margin-bottom: 1rem;
       }
 
       &__social-link {
-        font-size: 2.25rem;
+        font-size: 2rem;
 
         @include breakpoint(md) {
-          font-size: 3rem;
+          font-size: 2.25rem;
         }
         &:hover {
           color: $green;

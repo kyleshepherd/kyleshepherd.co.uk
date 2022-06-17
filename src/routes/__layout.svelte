@@ -10,8 +10,11 @@
 
   main {
     max-width: $xl;
-    padding: 1em;
+    min-height: 100vh;
+    padding: 1rem 1.5rem;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
   }
 </style>
 
