@@ -18,7 +18,7 @@
     text-decoration: none;
     font-size: 3rem;
     font-weight: 600;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
 
     @include breakpoint(sm) {
       font-size: 3.5rem;
