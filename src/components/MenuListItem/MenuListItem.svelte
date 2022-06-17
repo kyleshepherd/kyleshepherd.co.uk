@@ -19,6 +19,11 @@
     font-size: 3rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
+
+    @include breakpoint(sm) {
+      font-size: 3.5rem;
+    }
+
     &:hover {
       color: $green;
     }

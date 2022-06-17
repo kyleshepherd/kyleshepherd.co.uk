@@ -9,7 +9,7 @@
   }
 
   main {
-    max-width: $lg;
+    max-width: $xl;
     padding: 1em;
     margin: 0 auto;
   }
