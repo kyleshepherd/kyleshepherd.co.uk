@@ -1,4 +1,5 @@
 <script>
+  import PageHeader from "../components/PageHeader/PageHeader.svelte";
   import DetailBlock from "../components/DetailBlock/DetailBlock.svelte";
 </script>
 
@@ -34,7 +35,7 @@
 </style>
 
 <div class="home">
-  <h1 class="home--title">Frontend Engineer</h1>
+  <PageHeader header="Frontend Engineer" />
   <div class="home--detail">
     <DetailBlock header="Currently" content="Frontend Engineer @ SOON_" />
   </div>

@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     &--open-menu {
       border: none;
       padding: 0;
