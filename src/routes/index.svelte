@@ -5,7 +5,8 @@
 
 <style lang="scss">
   .home {
-    flex: 1 1 0;
+    flex-grow: 1;
+    flex-basis: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

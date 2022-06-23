@@ -4,7 +4,8 @@
 
 <style lang="scss">
   .about {
-    flex: 1 1 0;
+    flex-grow: 1;
+    flex-basis: 100%;
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
