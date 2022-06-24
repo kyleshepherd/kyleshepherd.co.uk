@@ -23,7 +23,7 @@ html {
 
 body {
   font-family: "Questrial", sans-serif;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: auto;
   color: $light;
   line-height: 1.5;
   font-weight: 500;
@@ -40,7 +40,6 @@ h6 {
   margin: 0;
   font-weight: 600;
   line-height: 1.2;
-  letter-spacing: 0.05rem;
   font-family: "DM Serif Display", serif;
 }
 
