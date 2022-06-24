@@ -17,8 +17,7 @@
     font-family: "DM Serif Display", serif;
     text-decoration: none;
     font-size: 3rem;
-    font-weight: 600;
-    letter-spacing: 0.05rem;
+    font-weight: 400;
 
     @include breakpoint(sm) {
       font-size: 3.5rem;
