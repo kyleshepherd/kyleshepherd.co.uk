@@ -52,18 +52,21 @@
     <div class="about--text">
       <p>
         <br />
-        I'm Kyle, a Frontend Engineer based in London, UK specialising in Svelte
-        and React.
+        I'm Kyle, a Frontend Engineer based in London, specialising in Svelte and
+        React.
         <br /><br />
-        I studied Games Development at Falmouth University, specialising in Programming
-        and graduating in 2019. During my final year of university, I moved into
-        web development, using online courses and tutorials to learn the basics before
-        starting an internship at a local agency. From here I learnt various JavaScript
-        frameworks via my day-to-day work or personal projects.
+        I graduated from Falmouth University in 2019 with a 2:1 in Games Development:
+        Programming. During my final year of university, I moved into web development,
+        using online courses and tutorials to learn HTML, CSS, JavaScript & PHP.
         <br /><br />
-        I'm currently working at London-based digital agency SOON_, working on large-scale
-        eCommerce projects using Svelte and React as our main frontend frameworks
-        whilst also creating dev tools using Go.
+        Since graduating I have worked at three different agencies, where I have
+        used a variety of frameworks and languages to create both websites and mobile
+        apps. Alongside this, I have worked on freelance and personal projects such
+        as an NFT iOS game and a Discord bot that has over 650 server installs.
+        <br /><br />
+        I'm currently working at London-based digital agency SOON_ as a Frontend
+        Engineer. Focusing on large-scale eCommerce projects using Svelte and React
+        as our main frameworks for creating web-apps.
       </p>
     </div>
     <div class="about--img">
