@@ -6,9 +6,21 @@
   const toggleMenu = (open: boolean) => {
     showMenu = open;
   };
+
+  $: if (typeof document !== "undefined") {
+    if (showMenu) {
+      document.querySelector("html")?.classList.add("locked");
+    } else {
+      document.querySelector("html")?.classList.remove("locked");
+    }
+  }
 </script>
 
 <style lang="scss">
+  :global(html.locked) {
+    overflow: hidden;
+  }
+
   .header {
     display: flex;
     justify-content: space-between;

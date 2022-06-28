@@ -11,24 +11,6 @@
     flex-direction: column;
     justify-content: center;
 
-    &--title {
-      margin-bottom: 3rem;
-      font-size: 3.5rem;
-
-      @include breakpoint(sm) {
-        font-size: 4.5rem;
-        margin-bottom: 4rem;
-      }
-
-      @include breakpoint(md) {
-        font-size: 5rem;
-      }
-
-      @include breakpoint(lg) {
-        font-size: 6rem;
-      }
-    }
-
     &--detail {
       margin-bottom: 2rem;
     }
