@@ -21,6 +21,7 @@
     background-color: $orange;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
     &::selection {
       background-color: $green;
     }
