@@ -2,17 +2,11 @@
   import PageHeader from "../../components/PageHeader/PageHeader.svelte";
 </script>
 
-<style lang="scss">
-  .contact {
-    flex: 1 1 0;
-    margin-bottom: 2rem;
-  }
-</style>
-
-<div class="contact">
+<div class="flex-1 mb-8">
   <PageHeader header="Contact" />
-  <p>
+  <p class="text-lg sm:text-xl">
     If you'd like to get in touch, please send an email to <a
+      class="underline"
       href="mailto:kyleshepherddev@gmail.com">kyleshepherddev@gmail.com</a
     > and I'll get back to you ASAP!
   </p>

@@ -1,25 +1,15 @@
 <script lang="ts">
+  import "../styles/app.css";
   import Footer from "../components/Footer/Footer.svelte";
   import Header from "../components/Header/Header.svelte";
 </script>
 
-<style lang="scss">
-  :global {
-    @import "../styles/global.scss";
-  }
-
-  main {
-    max-width: $xl;
-    min-height: 100vh;
-    padding: 1rem 1.5rem;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-</style>
-
-<main>
-  <Header />
-  <slot />
-  <Footer />
+<main
+  class="bg-green text-light py-4 flex flex-col min-h-screen selection:bg-orange"
+>
+  <div class="w-full mx-auto max-w-screen-xl px-6 flex flex-col flex-grow">
+    <Header />
+    <slot />
+    <Footer />
+  </div>
 </main>

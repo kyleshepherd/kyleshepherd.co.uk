@@ -2,55 +2,11 @@
   import PageHeader from "../../components/PageHeader/PageHeader.svelte";
 </script>
 
-<style lang="scss">
-  .about {
-    flex-grow: 1;
-    flex-basis: 100%;
-    margin-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    &--content {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      gap: 2rem;
-
-      @include breakpoint(sm) {
-        flex-wrap: nowrap;
-      }
-    }
-
-    &--text {
-      flex-basis: 100%;
-
-      @include breakpoint(sm) {
-        flex-basis: 50%;
-      }
-    }
-
-    &--img {
-      flex-basis: 100%;
-      text-align: center;
-
-      @include breakpoint(sm) {
-        flex-basis: 50%;
-      }
-
-      > img {
-        width: 100%;
-        max-width: 500px;
-        border-radius: 100%;
-      }
-    }
-  }
-</style>
-
-<div class="about">
+<div class="flex-grow basis-full mb-8 flex flex-col justify-center">
   <PageHeader header="About" />
-  <div class="about--content">
-    <div class="about--text">
-      <p>
+  <div class="flex flex-wrap justify-start gap-8 sm:flex-nowrap">
+    <div class="basis-full sm:basis-1/2">
+      <p class="text-lg sm:text-xl">
         <br />
         I'm Kyle, a Frontend Engineer based in London, specialising in Svelte and
         React.
@@ -69,8 +25,12 @@
         as our main frameworks for creating web-apps.
       </p>
     </div>
-    <div class="about--img">
-      <img src="/imgs/Kyle.jpg" alt="Lil piccy of me innit" />
+    <div class="basis-full sm:basis-1/2">
+      <img
+        class="w-full max-w-lg rounded-full mx-auto"
+        src="/imgs/Kyle.jpg"
+        alt="Lil piccy of me innit"
+      />
     </div>
   </div>
 </div>
