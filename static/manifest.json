@@ -1,0 +1,15 @@
+{
+  "background_color": "#228c77",
+  "theme_color": "#f5762c",
+  "name": "Kyle Shepherd - Frontend Engineer",
+  "short_name": "Kyle Shepherd",
+  "display": "minimal-ui",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "imgs/favicon.png",
+      "sizes": "200x200",
+      "type": "image/png"
+    }
+  ]
+}
