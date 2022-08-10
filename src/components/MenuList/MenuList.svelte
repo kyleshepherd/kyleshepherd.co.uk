@@ -28,17 +28,9 @@
   ];
 </script>
 
-<style lang="scss">
-  .menu-list {
-    list-style-type: none;
-    text-align: right;
-    margin: 0;
-  }
-</style>
-
-<ul class="menu-list">
+<ul class="list-none text-right m-0">
   {#each items as item}
-    <li class="menu-list--item">
+    <li class="mb-6 last:mb-0">
       <MenuListItem on:clickItem {item} />
     </li>
   {/each}

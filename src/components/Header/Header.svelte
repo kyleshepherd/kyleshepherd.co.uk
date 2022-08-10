@@ -9,58 +9,21 @@
 
   $: if (typeof document !== "undefined") {
     if (showMenu) {
-      document.querySelector("html")?.classList.add("locked");
+      document.querySelector("html")?.classList.add("overflow-hidden");
     } else {
-      document.querySelector("html")?.classList.remove("locked");
+      document.querySelector("html")?.classList.remove("overflow-hidden");
     }
   }
 </script>
 
-<style lang="scss">
-  :global(html.locked) {
-    overflow: hidden;
-  }
-
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-    &--open-menu {
-      border: none;
-      padding: 0;
-      background: none;
-      color: $light;
-      transition: color 0.2s;
-      position: relative;
-
-      @include breakpoint(sm) {
-      }
-
-      &:hover {
-        color: $orange;
-      }
-    }
-    &--logo {
-      margin: 0;
-      @include breakpoint(sm) {
-        font-size: 3rem;
-      }
-      &__link {
-        text-decoration: none;
-      }
-    }
-  }
-</style>
-
-<div class="header">
-  <h1 class="header--logo">
-    <a class="header--logo__link" href="/">Kyle Shepherd</a>
+<div class="flex justify-between items-start mb-8">
+  <h1 class="m-0 font-serif text-4xl sm:text-5xl">
+    <a class="no-underline" href="/">Kyle Shepherd</a>
   </h1>
   <button
     type="button"
     title="Toggle Menu"
-    class="header--open-menu"
+    class="text-light transition-colors hover:text-orange"
     on:click={() => toggleMenu(true)}
   >
     <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"

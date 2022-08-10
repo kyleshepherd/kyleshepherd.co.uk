@@ -1,6 +1,5 @@
 <script lang="ts">
   import { createEventDispatcher } from "svelte";
-
   import type { MenuItem } from "../MenuList/MenuList.svelte";
 
   export let item: MenuItem;
@@ -12,21 +11,10 @@
   };
 </script>
 
-<style lang="scss">
-  .menu-list-item {
-    font-family: "DM Serif Display", serif;
-    text-decoration: none;
-    font-size: 3rem;
-    font-weight: 400;
-
-    @include breakpoint(sm) {
-      font-size: 3.5rem;
-    }
-
-    &:hover {
-      color: $green;
-    }
-  }
-</style>
-
-<a on:click={clickItem} href={item.href} class="menu-list-item">{item.title}</a>
+<a
+  on:click={clickItem}
+  href={item.href}
+  class="font-serif text-5xl transition-colors sm:text-6xl hover:text-green"
+>
+  {item.title}
+</a>
