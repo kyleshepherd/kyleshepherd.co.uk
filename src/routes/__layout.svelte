@@ -7,7 +7,7 @@
 <main
   class="bg-green text-light py-4 flex flex-col min-h-screen selection:bg-orange"
 >
-  <div class="container flex flex-col flex-grow">
+  <div class="w-full mx-auto max-w-screen-xl px-6 flex flex-col flex-grow">
     <Header />
     <slot />
     <Footer />

@@ -4,18 +4,7 @@
   import { workData } from "../../data/work.data";
 </script>
 
-<style lang="scss">
-  .work {
-    flex-grow: 1;
-    flex-basis: 100%;
-    margin-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-</style>
-
-<div class="work">
+<div class="flex-grow basis-full mb-8 flex flex-col justify-center">
   <PageHeader header="Work" />
   {#each workData as project}
     <WorkBlock

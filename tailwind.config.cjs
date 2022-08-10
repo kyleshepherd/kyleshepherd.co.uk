@@ -19,10 +19,6 @@ module.exports = {
       sans: ["Questrial", "sans-serif"],
       serif: ["DM\\ Serif\\ Display", "serif"],
     },
-    container: {
-      padding: "1.5rem",
-      center: true,
-    },
     extend: {},
   },
   plugins: [],

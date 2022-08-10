@@ -16,7 +16,7 @@
   class="absolute inset-0 py-4 bg-orange flex flex-col overflow-y-auto selection:bg-green"
   transition:slide={{ duration: 300, easing: circInOut }}
 >
-  <div class="container w-full flex flex-col flex-1">
+  <div class="max-w-screen-xl mx-auto px-6 w-full flex flex-col flex-1">
     <div class="flex justify-end">
       <button
         type="button"
