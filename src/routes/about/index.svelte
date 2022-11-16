@@ -20,7 +20,7 @@
         apps. Alongside this, I have worked on freelance and personal projects such
         as an NFT iOS game and a Discord bot that has over 650 server installs.
         <br /><br />
-        I'm currently working at London-based digital agency SOON_ as a Frontend
+        I'm currently working at London-based digital agency SOON_ as a Senior Software
         Engineer. Focusing on large-scale eCommerce projects using Svelte and React
         as our main frameworks for creating web-apps.
       </p>
