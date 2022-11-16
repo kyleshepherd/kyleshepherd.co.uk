@@ -6,7 +6,10 @@
 <div class=" flex-grow basis-full flex flex-col justify-center">
   <PageHeader header="Frontend Engineer" />
   <div class="mb-8">
-    <DetailBlock header="Currently" content="Frontend Engineer @ SOON_" />
+    <DetailBlock
+      header="Currently"
+      content="Senior Software Engineer @ SOON_"
+    />
   </div>
   <div class="mb-8">
     <DetailBlock header="Building with" content="Svelte, React & Go" />
