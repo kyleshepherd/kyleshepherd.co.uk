@@ -9,7 +9,7 @@
 <div class="flex flex-wrap mb-12 sm:flex-nowrap gap-12">
   <div class="basis-full items-start sm:basis-1/2">
     <h2 class="font-serif text-3xl mb-1 md:text-4xl">{title}</h2>
-    <img class="w-full" src="imgs/{image}" alt={title} />
+    <img class="w-full" src={image} alt={title} />
   </div>
   <div class="basis-full items-start sm:basis-1/2">
     <p class="text-lg mb-4 sm:text-xl md:mt-8">{@html body}</p>

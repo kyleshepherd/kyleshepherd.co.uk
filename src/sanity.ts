@@ -16,5 +16,11 @@ export const getProjects = async () => {
   if (!client) {
     setClient();
   }
-  return await client.fetch('*[_type == "project"]');
+  return await client.fetch(`*[_type == "project"] | order(projectDate desc){
+    name,
+    description,
+    project,
+    repo,
+    "imageUrl": image.asset->url
+  }`);
 };
