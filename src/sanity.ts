@@ -24,3 +24,10 @@ export const getProjects = async () => {
     "imageUrl": image.asset->url
   }`);
 };
+
+export const getAbout = async () => {
+  if (!client) {
+    setClient();
+  }
+  return await client.fetch(`*[_type == "about"]`);
+};
