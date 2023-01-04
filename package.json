@@ -33,5 +33,8 @@
     "typescript": "^4.7.2",
     "vite": "^3.2.4"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
 }

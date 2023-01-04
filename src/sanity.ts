@@ -21,7 +21,8 @@ export const getProjects = async () => {
     description,
     project,
     repo,
-    "imageUrl": image.asset->url
+    "imageUrl": image.asset->url,
+    showServerCount,
   }`);
 };
 

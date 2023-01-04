@@ -5,10 +5,10 @@
 
   export let data: PageData;
 
-  $: ({ projects } = data);
+  $: ({ projects, guildCount } = data);
 </script>
 
-<div class="flex-grow basis-full mb-8 flex flex-col justify-center">
+<div class="flex flex-col justify-center flex-grow mb-8 basis-full">
   <PageHeader header="Work" />
   {#each projects as project}
     <WorkBlock
@@ -17,6 +17,7 @@
       body={project.description}
       repoLink={project.repo || ""}
       projectLink={project.project || ""}
+      guildCount={project.showServerCount ? guildCount : undefined}
     />
   {/each}
 </div>

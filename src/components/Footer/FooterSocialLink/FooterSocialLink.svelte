@@ -6,6 +6,7 @@
 <a
   href={url}
   target="_blank"
+  rel="noreferrer"
   class="text-light text-3xl transition-colors sm:text-4xl {hoverGreen
     ? 'hover:text-green'
     : 'hover:text-orange'}"
