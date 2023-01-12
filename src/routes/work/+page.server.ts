@@ -1,17 +1,15 @@
-import { SECRET_DISCORD_BOT_TOKEN } from "$env/static/private";
-import { Client, GatewayIntentBits } from "discord.js";
 import { error } from "@sveltejs/kit";
 import { getProjects } from "../../sanity";
 
 export const load = async () => {
   let guildCount = 0;
 
-  const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+  const res = await fetch(
+    "https://tarkov-tk-server-count-d55njyagta-ew.a.run.app/count",
+  );
+  const data = await res.json();
 
-  await client.login(SECRET_DISCORD_BOT_TOKEN);
-
-  guildCount = client.guilds.cache.size;
-  client.destroy();
+  guildCount = data?.count ? data.count : 0;
 
   const projects = await getProjects();
 
