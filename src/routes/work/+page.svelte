@@ -20,12 +20,12 @@
   });
 </script>
 
-<div class="flex flex-col justify-center flex-grow mb-8 basis-full">
+<div class="mb-8 flex flex-grow basis-full flex-col justify-center">
   <PageHeader header="Work" />
   {#each projects as project}
     <WorkBlock
       title={project.name}
-      image={project.imageUrl}
+      image={project.imageUrl + "?w=752&auto=format"}
       body={project.description}
       repoLink={project.repo || ""}
       projectLink={project.project || ""}
