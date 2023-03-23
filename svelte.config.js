@@ -1,4 +1,4 @@
-import adapter from "@sveltejs/adapter-vercel";
+import adapter from "@sveltejs/adapter-netlify";
 import preprocess from "svelte-preprocess";
 import autoprefixer from "autoprefixer";
 
