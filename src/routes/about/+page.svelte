@@ -7,7 +7,7 @@
   $: ({ about } = data);
 </script>
 
-<div class="flex-grow basis-full mb-8 flex flex-col justify-center">
+<div class="mb-8 flex flex-grow basis-full flex-col justify-center">
   <PageHeader header="About" />
   <div class="flex flex-wrap justify-start gap-8 sm:flex-nowrap">
     <div class="basis-full sm:basis-1/2">
@@ -17,7 +17,7 @@
     </div>
     <div class="basis-full sm:basis-1/2">
       <img
-        class="w-full max-w-lg rounded-full mx-auto"
+        class="mx-auto w-full max-w-lg rounded-full"
         src="/imgs/Kyle.jpg"
         alt="Lil piccy of me innit"
       />

@@ -10,14 +10,13 @@ module.exports = {
       xl: "1600px",
     },
     colors: {
-      light: "#ffffff",
-      dark: "#333333",
+      light: "#F4F4F9",
       green: "#228c77",
-      orange: "#f5762c",
+      orange: "#F9A620",
     },
     fontFamily: {
-      sans: ["Questrial", "sans-serif"],
-      serif: ["DM\\ Serif\\ Display", "serif"],
+      sans: ["Satoshi", "sans-serif"],
+      display: ["Clash", "sans-serif"],
     },
     extend: {},
   },

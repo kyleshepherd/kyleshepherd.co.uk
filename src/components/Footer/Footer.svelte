@@ -2,7 +2,7 @@
   import FooterSocialLink from "./FooterSocialLink/FooterSocialLink.svelte";
 </script>
 
-<div class="flex justify-center gap-4 mb-3 sm:mb-4">
+<div class="mb-3 flex justify-center gap-4 sm:mb-4">
   <FooterSocialLink url="https://github.com/kyleshepherd">
     <svg
       stroke="currentColor"

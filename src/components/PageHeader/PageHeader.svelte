@@ -2,6 +2,8 @@
   export let header: string;
 </script>
 
-<h1 class="font-serif text-6xl mb-12 sm:text-7xl sm:mb-16 lg:text-8xl">
+<h1
+  class="mb-12 font-display text-6xl font-bold tracking-wide sm:mb-16 sm:text-7xl lg:text-8xl"
+>
   {header}
 </h1>

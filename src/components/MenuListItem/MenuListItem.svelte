@@ -14,7 +14,7 @@
 <a
   on:click={clickItem}
   href={item.href}
-  class="font-serif text-5xl transition-colors sm:text-6xl hover:text-green"
+  class="font-display text-5xl font-bold tracking-wide transition-colors hover:text-green sm:text-6xl"
 >
   {item.title}
 </a>

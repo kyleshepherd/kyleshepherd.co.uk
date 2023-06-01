@@ -9,7 +9,9 @@
 
 <div class="mb-12 flex flex-wrap gap-12 sm:flex-nowrap">
   <div class="basis-full items-start sm:basis-1/2">
-    <h2 class="mb-1 font-serif text-3xl md:text-4xl">{title}</h2>
+    <h2 class="mb-1 font-display text-3xl font-bold tracking-wide md:text-4xl">
+      {title}
+    </h2>
     <img class="w-full" src={image} alt={title} loading="lazy" />
   </div>
   <div class="basis-full items-start sm:basis-1/2">
@@ -25,7 +27,7 @@
           href={projectLink}
           target="_blank"
           rel="noreferrer"
-          class="mb-3 basis-full rounded-lg border-2 border-orange px-4 py-3 text-center font-serif text-xl transition-colors hover:bg-orange hover:text-light md:basis-1/2 md:text-2xl"
+          class="mb-3 basis-full rounded-lg border-2 border-orange px-4 py-3 text-center font-display text-xl font-semibold tracking-wide transition-colors hover:bg-orange hover:text-light md:basis-1/2 md:text-2xl"
         >
           View Project
         </a>
@@ -35,7 +37,7 @@
           href={repoLink}
           target="_blank"
           rel="noreferrer"
-          class="mb-3 basis-full rounded-lg border-2 border-orange px-4 py-3 text-center font-serif text-xl transition-colors hover:bg-orange hover:text-light md:basis-1/2 md:text-2xl"
+          class="mb-3 basis-full rounded-lg border-2 border-orange px-4 py-3 text-center font-display text-xl font-semibold tracking-wide transition-colors hover:bg-orange hover:text-light md:basis-1/2 md:text-2xl"
         >
           View Repo
         </a>

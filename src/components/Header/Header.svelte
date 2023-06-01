@@ -16,8 +16,8 @@
   }
 </script>
 
-<div class="flex justify-between items-start mb-8">
-  <h1 class="m-0 font-serif text-4xl sm:text-5xl">
+<div class="mb-8 flex items-start justify-between">
+  <h1 class="m-0 font-display text-4xl font-bold tracking-wide sm:text-5xl">
     <a class="no-underline" href="/">Kyle Shepherd</a>
   </h1>
   <button
