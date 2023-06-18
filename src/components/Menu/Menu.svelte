@@ -13,10 +13,10 @@
 </script>
 
 <div
-  class="absolute inset-0 py-4 bg-orange flex flex-col overflow-y-auto selection:bg-green"
+  class="absolute inset-0 z-10 flex flex-col overflow-y-auto bg-orange py-4 selection:bg-green"
   transition:slide={{ duration: 300, easing: circInOut }}
 >
-  <div class="max-w-screen-xl mx-auto px-6 w-full flex flex-col flex-1">
+  <div class="mx-auto flex w-full max-w-screen-xl flex-1 flex-col px-6">
     <div class="flex justify-end">
       <button
         type="button"
@@ -34,7 +34,7 @@
         </span>
       </button>
     </div>
-    <div class="flex-1 flex flex-col justify-center">
+    <div class="flex flex-1 flex-col justify-center">
       <MenuList on:clickItem={closeMenu} />
     </div>
   </div>
