@@ -26,12 +26,16 @@
     class="text-light transition-colors hover:text-orange"
     on:click={() => toggleMenu(true)}
   >
-    <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height="36"
+      viewBox="0 -960 960 960"
+      width="36"
       ><path
+        d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
         fill="currentColor"
-        d="M22.5 38V25.5H10V22.5H22.5V10H25.5V22.5H38V25.5H25.5V38Z"
-      /></svg
-    >
+      />
+    </svg>
   </button>
 </div>
 
