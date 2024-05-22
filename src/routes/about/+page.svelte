@@ -18,7 +18,7 @@
     <div class="basis-full sm:basis-1/2">
       <img
         class="mx-auto w-full max-w-lg rounded-full drop-shadow-lg"
-        src="/imgs/Kyle.jpg"
+        src="/imgs/Kyle.png"
         alt="Lil piccy of me innit"
       />
     </div>
