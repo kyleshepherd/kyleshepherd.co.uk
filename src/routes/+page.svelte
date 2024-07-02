@@ -3,8 +3,8 @@
   import DetailBlock from "../components/DetailBlock/DetailBlock.svelte";
 </script>
 
-<div class="flex flex-col justify-center flex-grow basis-full">
-  <PageHeader header="Frontend Engineer" />
+<div class="flex flex-grow basis-full flex-col justify-center">
+  <PageHeader header="Senior Software Engineer" />
   <div class="mb-8">
     <DetailBlock
       header="Currently"
