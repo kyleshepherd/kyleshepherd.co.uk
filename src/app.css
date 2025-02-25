@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@font-face {
+	font-family: "PPEditorialNew";
+	src: url("/fonts/PPEditorialNew-Regular.otf") format("opentype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "PPEditorialNew";
+	src: url("/fonts/PPEditorialNew-Italic.otf") format("opentype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PPNeueMontreal";
+	src: url("/fonts/PPNeueMontreal-Book.otf") format("opentype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "PPNeueMontreal";
+	src: url("/fonts/PPNeueMontreal-Italic.otf") format("opentype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PPMondwest";
+	src: url("/fonts/PPMondwest-Regular.otf") format("opentype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@theme {
+	--color-black: #1b1b1b;
+	--color-light: #dbd7d7;
+	--font-display: "PPEditorialNew", "serif";
+	--font-sans: "PPNeueMontreal", "sans-serif";
+	--font-bit: "PPMondwest", "monospace";
+}
+
+::selection {
+	background: var(--color-light);
+	color: var(--color-black);
+}
