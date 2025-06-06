@@ -72,6 +72,7 @@
 	--font-serif: "PPEditorialOld", "serif";
 	--font-sans: "PPNeueMontreal", "sans-serif";
 	--font-mono: "PPMondwest", "monospace";
+	--leading-chill: 1.1;
 }
 
 ::selection {
