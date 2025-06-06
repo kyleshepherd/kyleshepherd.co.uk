@@ -1,1 +1,83 @@
 @import 'tailwindcss';
+
+@font-face {
+	font-family:"PPEditorialOld";
+	src: url("/fonts/PPEditorialOld-Regular.otf") format("opentype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:"PPEditorialOld";
+	src: url("/fonts/PPEditorialOld-Italic.otf") format("opentype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family:"PPEditorialOld";
+	src: url("/fonts/PPEditorialOld-Ultralight.otf") format("opentype");
+	font-weight: 300;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:"PPEditorialOld";
+	src: url("/fonts/PPEditorialOld-UltralightItalic.otf") format("opentype");
+	font-weight: 300;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family:"PPNeueMontreal";
+	src: url("/fonts/PPNeueMontreal-Book.otf") format("opentype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:"PPNeueMontreal";
+	src: url("/fonts/PPNeueMontreal-Italic.otf") format("opentype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family:"PPNeueMontreal";
+	src: url("/fonts/PPNeueMontreal-Bold.otf") format("opentype");
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:"PPMondwest";
+	src: url("/fonts/PPMondwest-Regular.otf") format("opentype");
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+@theme {
+	--breakpoint-xxs: 24rem;
+	--breakpoint-xs: 30rem;
+	--color-black: oklch(0.2002 0 0);
+	--color-white: oklch(0.899 0.0133 82.4);
+	--font-serif: "PPEditorialOld", "serif";
+	--font-sans: "PPNeueMontreal", "sans-serif";
+	--font-mono: "PPMondwest", "monospace";
+}
+
+::selection {
+	@apply bg-white text-black;
+}
+
+.link {
+	@apply underline decoration-white/0 transition-colors hover:decoration-white/100;
+}
