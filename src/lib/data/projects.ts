@@ -31,9 +31,3 @@ export const projects: Project[] = [
 		projectUrl: "https://www.belstaff.com/",
 	},
 ];
-
-/**
- * I'm currently a Senior Software Engineer at SOON_, a London-based eCommerce agency. I work across the stack on both client-facing and internal projects, building modern web applications with JavaScript frameworks like React and Svelte. On the backend, I develop APIs and services in Go, deploying them to Google Cloud Platform using Helm, Terraform, and Kubernetes.
-
-Beyond coding, I'm deeply involved in planning and designing new features, ensuring they align with both user needs and technical goals. I also take an active role in code quality and team growth—conducting thorough code reviews and mentoring junior developers to help maintain high standards across all our projects.
- */
