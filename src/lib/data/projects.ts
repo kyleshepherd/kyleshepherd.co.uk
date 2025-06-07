@@ -15,13 +15,13 @@ export const projects: Project[] = [
 	{
 		name: "Beddows Design",
 		imagePath: "/beddows.png",
-		body: "A freelance project for my friend Alex Beddows, a multi-disciplinary artist working across 3D game art and photography. He needed a portfolio site that could showcase both disciplines in a cohesive and flexible way.<br/><br/>The site is built with SvelteKit and Sanity, giving Alex full control over his content and allowing him to customise each project to suit his creative vision.",
+		body: "A freelance project for Alex Beddows, a multi-disciplinary artist working across 3D game art and photography. He needed a portfolio site that could showcase both disciplines in a cohesive and flexible way.<br/><br/>The site is built with SvelteKit and Sanity, giving Alex full control over his content and allowing him to customise each project to suit his creative vision.",
 		projectUrl: "https://beddowsdesign.com/",
 	},
 	{
 		name: "Appare Yosakoi Vancouver",
 		imagePath: "/appare.png",
-		body: "A freelance project for my friend Sophie, who helps run Appare Yosakoi, a Vancouver-based dance group. They needed a website to showcase their performances and provide a way for events and organizations to enquire about bookings.<br/><br/>The site is built with SvelteKit and uses Sanity as a CMS, allowing the team to easily manage content—adding new performances, updating gallery images, and editing text across the site without needing developer input.",
+		body: "A freelance project for Appare Yosakoi, a Vancouver-based dance group. They needed a website to showcase their performances and provide a way for events and organizations to enquire about bookings.<br/><br/>The site is built with SvelteKit and uses Sanity as a CMS, allowing the team to easily manage content—adding new performances, updating gallery images, and editing text across the site without needing developer input.",
 		projectUrl: "https://yosakoivancouver.com/",
 	},
 	{
