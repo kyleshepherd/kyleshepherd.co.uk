@@ -21,6 +21,6 @@
 		alt="A picture of me, Kyle Shepherd"
 		src="/src/lib/assets/Kyle.jpeg"
 		sizes="min(1134px, 100vw)"
-		class="-z-10 -mt-12 opacity-35 grayscale sm:mr-0 sm:ml-auto md:-mt-24 md:max-w-[65%] xl:-mt-32 2xl:max-w-[min(1134px,_40vw)]"
+		class="-z-10 -mt-12 opacity-35 grayscale sm:mr-0 sm:ml-auto md:-mt-24 md:max-w-[65%] xl:-mt-32 xl:max-w-[min(1000px,_45vw)]"
 	/>
 </div>

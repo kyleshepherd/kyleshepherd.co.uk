@@ -7,8 +7,10 @@
 </script>
 
 <div
-	class="pointer-events-none fixed inset-0 z-30 bg-[url(/imgs/noise.svg)] opacity-5 bg-blend-soft-light"
+	class="pointer-events-none fixed inset-0 z-30 bg-[url(/imgs/noise.png)] bg-repeat-round opacity-5 bg-blend-soft-light"
 ></div>
-<Header />
-{@render children()}
-<Footer />
+<div class="mx-auto max-w-[2560px]">
+	<Header />
+	{@render children()}
+	<Footer />
+</div>
