@@ -82,3 +82,7 @@
 .link {
 	@apply underline decoration-white/0 transition-colors hover:decoration-white/100;
 }
+
+.component-padding {
+	@apply xxs:px-3 px-2 sm:px-5
+}
