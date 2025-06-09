@@ -1,9 +1,23 @@
 <script lang="ts">
 	import Footer from "$lib/components/Footer.svelte";
 	import Header from "$lib/components/Header.svelte";
+	import { onMount } from "svelte";
 	import "../app.css";
+	import Lenis from "lenis";
 
 	let { children } = $props();
+
+	onMount(() => {
+		// Initialize Lenis
+		const lenis = new Lenis({
+			autoRaf: true,
+		});
+
+		// Listen for the scroll event and log the event data
+		lenis.on("scroll", e => {
+			console.log(e);
+		});
+	});
 </script>
 
 <div
