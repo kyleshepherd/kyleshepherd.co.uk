@@ -13,11 +13,11 @@
 			default:
 				return TDImg;
 			case 1:
-				return BDImg;
-			case 2:
-				return AYImg;
-			case 3:
 				return BelstaffImg;
+			case 2:
+				return BDImg;
+			case 3:
+				return AYImg;
 		}
 	};
 </script>
