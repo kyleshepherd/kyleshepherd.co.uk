@@ -10,7 +10,7 @@
 			class="link font-mono decoration-from-font underline-offset-[0.25rem]"
 			target="_blank"
 			rel="noopener noreferrer">SOON_</a
-		>, a London-based digital agency focused on eCommerce. At this role, I've contributed to the
+		>, a London-based digital agency focused on e-commerce. At this role, I've contributed to the
 		development of several large-scale web applications using SvelteKit and React, and helped build
 		and maintain a suite of in-house services written in Go, including our custom CMS and image
 		processing tools. I work across the full stack, from frontend development to backend APIs, and

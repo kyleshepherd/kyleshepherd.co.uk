@@ -8,7 +8,7 @@
 	>
 		<HandIcon
 			classes="inline size-[30px] xs:size-[36px] sm:size-[48px] md:size-[60px] lg:size-[72px] 2xl:size-[96px] align-bottom mr-1 sm:mr-2"
-		/>I'm a Senior Software Engineer specialising in Svelte and Go, currently building eCommerce
+		/>I'm a Senior Software Engineer specialising in Svelte and Go, currently building e-commerce
 		websites and a custom CMS at
 		<a
 			href="https://thisissoon.com/"
