@@ -12,10 +12,10 @@
 			rel="noopener noreferrer">SOON_</a
 		>, a London-based digital agency focused on e-commerce. At this role, I've contributed to the
 		development of several large-scale web applications using SvelteKit and React, and helped build
-		and maintain a suite of in-house services written in Go, including our custom CMS and image
-		processing tools. I work across the full stack, from frontend development to backend APIs, and
-		infrastructure, with deployments to Google Cloud Platform and AWS using tools like Terraform,
-		and Kubernetes.<br /><br />
+		and maintain a suite of in-house e-commerce services written in Go, including our custom CMS and
+		image processing tools. I work across the full stack, from frontend development to backend APIs,
+		and infrastructure, with deployments to Google Cloud Platform and AWS using tools like
+		Terraform, and Kubernetes.<br /><br />
 		Alongside development, I'm involved in shaping features and functionality through planning and technical
 		design. I also support team growth through code reviews and mentoring junior developers.
 	</p>
