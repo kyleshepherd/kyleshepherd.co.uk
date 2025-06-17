@@ -4,11 +4,11 @@
 
 <div class="component-padding xxs:pt-3 relative pt-2 sm:pt-5">
 	<h1
-		class="xs:text-4xl leading-chill relative z-10 max-w-6xl font-serif text-3xl tracking-wide text-balance uppercase sm:text-5xl md:text-6xl lg:text-7xl 2xl:max-w-[1780px] 2xl:text-8xl"
+		class="xs:text-4xl leading-chill relative z-10 max-w-6xl font-serif text-3xl tracking-wide text-balance uppercase sm:text-5xl md:text-6xl lg:text-7xl 2xl:max-w-[1800px] 2xl:text-8xl"
 	>
 		<HandIcon
 			classes="inline size-[30px] xs:size-[36px] sm:size-[48px] md:size-[60px] lg:size-[72px] 2xl:size-[96px] align-bottom mr-1 sm:mr-2"
-		/>I'm a Senior Software Engineer specialising in Svelte and Go, currently building e-commerce
+		/>I'm a Senior Fullstack Engineer specialising in Svelte and Go, currently building e-commerce
 		websites and products at
 		<a
 			href="https://thisissoon.com/"

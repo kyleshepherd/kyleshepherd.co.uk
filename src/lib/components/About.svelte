@@ -1,6 +1,6 @@
 <div class="component-padding mt-12 xl:mb-4">
 	<p class="max-w-prose text-lg xl:text-xl 2xl:text-2xl">
-		I'm <span class="font-mono">Kyle</span>, a Senior Software Engineer based in London with over
+		I'm <span class="font-mono">Kyle</span>, a Senior Fullstack Engineer based in London with over
 		six years of experience working in agencies on projects for global clients, such as Tom Dixon,
 		White Cube and Belstaff. I specialise in modern JavaScript frameworks (Svelte/React), Go and
 		Node.js.<br /><br />
