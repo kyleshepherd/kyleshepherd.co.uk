@@ -8,13 +8,12 @@
 	>
 		<HandIcon
 			classes="inline size-[30px] xs:size-[36px] sm:size-[48px] md:size-[60px] lg:size-[72px] 2xl:size-[96px] align-bottom mr-1 sm:mr-2"
-		/>I'm a Senior Fullstack Engineer specialising in Svelte and Go, currently building e-commerce
-		websites and products at
+		/>I'm a Software Engineer specialising in JS and Go, currently building at
 		<a
-			href="https://thisissoon.com/"
+			href="https://www.kittoffices.com/"
 			class="link decoration-from-font underline-offset-[1rem]"
 			target="_blank"
-			rel="noopener noreferrer">SOON_</a
+			rel="noopener noreferrer">Kitt</a
 		>.
 	</h1>
 	<enhanced:img
