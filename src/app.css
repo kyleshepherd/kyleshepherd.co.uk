@@ -86,3 +86,7 @@
 .component-padding {
 	@apply xxs:px-3 px-2 sm:px-5
 }
+
+p > a {
+	@apply underline;
+}
