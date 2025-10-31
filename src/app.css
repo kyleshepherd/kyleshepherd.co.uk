@@ -1,5 +1,6 @@
 @import 'tailwindcss';
 
+
 @font-face {
 	font-family:"PPEditorialOld";
 	src: url("/fonts/PPEditorialOld-Regular.otf") format("opentype");

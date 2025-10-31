@@ -7,6 +7,12 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
+		name: "Noir96",
+		body: `A freelance project for design studio Noir96. This was a really fun project to work on, Luke brought along some designs and ideas for animation and interaction which I was able to implement using SvelteKit and TailwindCSS.<br/><br/>The collaboration worked great, with us iterating and tweaking the Work page panning and page transitions.`,
+		projectUrl: "https://noir96.com/",
+		techTags: ["SvelteKit", "TailwindCSS", "Sanity CMS", "Vercel"],
+	},
+	{
 		name: "Tom Dixon (SOON_)",
 		body: `This project was a large-scale e-commerce transformation at SOON_, built on Shopify and powered by our custom in-house platform, SOON_CMS.<br/><br/>I was responsible for building pages and functionality for the site using SvelteKit, whilst also working on our in-house Shopify GraphQL library in Go. Along with this, I built functionality for CMS users to add Promo Blocks to any PDP, which allowed the client to have better control on content curation.<br/><br/>One of the more interesting challenges came with the PDP, where a significant amount of product data needed to be displayed in the Details Tray. To handle this efficiently, I used our Go-based GraphQL API to structure and streamline the data from Shopify before consuming it within the SvelteKit frontend.<br/><br/>The site went on to win a <a href="https://www.w3award.com/winners/gallery/?event=1092&search=tom%20dixon&id=352007" target="_blank" rel="noopener noreferrer">handful of w3 Awards</a>, including a Gold Award for General Website (Consumer Goods).`,
 		projectUrl: "http://tomdixon.net/",

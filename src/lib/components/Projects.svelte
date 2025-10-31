@@ -7,6 +7,7 @@
 	import WCImg from "$lib/assets/projects/whitecube.png?enhanced";
 	import SoonImg from "$lib/assets/projects/soon.png?enhanced";
 	import PagesmithImg from "$lib/assets/projects/pagesmith.png?enhanced";
+	import Noir96Img from "$lib/assets/projects/noir96.png?enhanced";
 
 	let { projects }: { projects: Project[] } = $props();
 
@@ -14,18 +15,20 @@
 		switch (i) {
 			case 0:
 			default:
-				return TDImg;
+				return Noir96Img;
 			case 1:
-				return SoonImg;
+				return TDImg;
 			case 2:
+				return SoonImg;
+			case 3:
 				return WCImg;
 			case 3:
 				return BelstaffImg;
-			case 4:
-				return PagesmithImg;
 			case 5:
-				return BDImg;
+				return PagesmithImg;
 			case 6:
+				return BDImg;
+			case 7:
 				return AYImg;
 		}
 	};
