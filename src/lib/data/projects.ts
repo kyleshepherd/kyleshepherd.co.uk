@@ -7,6 +7,12 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
+		name: "Checkpnt",
+		body: `A social game review platform, allowing users to track and share the games they play. This is a passion project of mine primarily built to learn and experiment with new technologies and ideas.<br/><br/>The frontend is built with SvelteKit and TailwindCSS, using oRPC to communicate with a Postgres database. Meilisearch is used to provide fast and relevant search results for games and users.<br/><br/>The project is still in active development, with new features and improvements being added regularly.`,
+		projectUrl: "https://checkpnt.app/",
+		techTags: ["SvelteKit", "TailwindCSS", "oRPC", "Postgres", "Meilisearch"],
+	},
+	{
 		name: "Noir96",
 		body: `A freelance project for design studio Noir96. This was a really fun project to work on, Luke brought along some designs and ideas for animation and interaction which I was able to implement using SvelteKit and TailwindCSS.<br/><br/>The collaboration worked great, with us iterating and tweaking the Work page panning and page transitions.`,
 		projectUrl: "https://noir96.com/",
@@ -29,7 +35,7 @@ export const projects: Project[] = [
 	},
 	{
 		name: "SOON_ E-commerce",
-		body: "I've worked on internal projects as part of SOON_'s e-commerce accelerator products -  including frontend libraries, custom CMS and e-commerce tools and asset services.<br/><br/>I have led full-stack development on projects such as adding an Asset Manager and Image Focal Points to our CMS, both from feature design to deployment. This involved me creating components and functionality using React and MUI, and then implementing the backend using Protocol Buffers, Go and gRPC.<br/><br/> I also led the development of adding a new resource, Campaign Blocks, to our CMS. This involved me adding new object and function definitions in Protocol Buffers, and then implementing these functions as gRPC calls in our Go-based backend, whilst ensuring backwards compatibility. This allowed our CMS users to add a variety of content blocks to product list pages and product detail pages across their site, in order to enable the client to wholly curate their frontend experience to the end-users.",
+		body: "I've worked on internal projects as part of SOON_'s e-commerce accelerator products - including frontend libraries, custom CMS and e-commerce tools and asset services.<br/><br/>I have led full-stack development on projects such as adding an Asset Manager and Image Focal Points to our CMS, both from feature design to deployment. This involved me creating components and functionality using React and MUI, and then implementing the backend using Protocol Buffers, Go and gRPC.<br/><br/> I also led the development of adding a new resource, Campaign Blocks, to our CMS. This involved me adding new object and function definitions in Protocol Buffers, and then implementing these functions as gRPC calls in our Go-based backend, whilst ensuring backwards compatibility. This allowed our CMS users to add a variety of content blocks to product list pages and product detail pages across their site, in order to enable the client to wholly curate their frontend experience to the end-users.",
 		techTags: [
 			"Go",
 			"React",

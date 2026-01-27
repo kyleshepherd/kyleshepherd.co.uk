@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Project } from "$lib/data/projects";
+	import CheckpntImg from "$lib/assets/projects/checkpnt.png?enhanced";
 	import TDImg from "$lib/assets/projects/tomdixon.png?enhanced";
 	import BelstaffImg from "$lib/assets/projects/belstaff.png?enhanced";
 	import BDImg from "$lib/assets/projects/beddowsdesign.png?enhanced";
@@ -15,20 +16,22 @@
 		switch (i) {
 			case 0:
 			default:
-				return Noir96Img;
+				return CheckpntImg;
 			case 1:
-				return TDImg;
+				return Noir96Img;
 			case 2:
+				return TDImg;
+			case 3:
 				return SoonImg;
-			case 3:
+			case 4:
 				return WCImg;
-			case 3:
-				return BelstaffImg;
 			case 5:
-				return PagesmithImg;
+				return BelstaffImg;
 			case 6:
-				return BDImg;
+				return PagesmithImg;
 			case 7:
+				return BDImg;
+			case 8:
 				return AYImg;
 		}
 	};
