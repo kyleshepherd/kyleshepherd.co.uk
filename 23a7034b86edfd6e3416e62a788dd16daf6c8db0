@@ -1,0 +1,29 @@
+src/styles/app.css
+  f97acfa63d9035c0 1-92
+public/imgs/site.webmanifest
+  f97acfa63d9035c0 1-21
+public/imgs/favicon.svg
+  f97acfa63d9035c0 1-3
+public/manifest.json
+  f97acfa63d9035c0 1-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "23a7034b86edfd6e3416e62a788dd16daf6c8db0",
+  "prompts": {
+    "f97acfa63d9035c0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cdfed327-31b9-419f-9e25-f0c20ea0c2d2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Kyle Shepherd",
+      "messages": [],
+      "total_additions": 131,
+      "total_deletions": 0,
+      "accepted_lines": 1356,
+      "overriden_lines": 0
+    }
+  }
+}
