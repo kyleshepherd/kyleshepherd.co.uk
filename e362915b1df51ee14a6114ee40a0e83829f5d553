@@ -1,0 +1,33 @@
+.gitignore
+  f97acfa63d9035c0 6,10-11
+src/pages/index.astro
+  f97acfa63d9035c0 1-2,4-5
+.nvmrc
+  f97acfa63d9035c0 1
+tsconfig.json
+  f97acfa63d9035c0 2
+astro.config.mjs
+  f97acfa63d9035c0 1-3,6-10
+package.json
+  f97acfa63d9035c0 2-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "e362915b1df51ee14a6114ee40a0e83829f5d553",
+  "prompts": {
+    "f97acfa63d9035c0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cdfed327-31b9-419f-9e25-f0c20ea0c2d2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Kyle Shepherd",
+      "messages": [],
+      "total_additions": 1362,
+      "total_deletions": 52241,
+      "accepted_lines": 1265,
+      "overriden_lines": 0
+    }
+  }
+}
