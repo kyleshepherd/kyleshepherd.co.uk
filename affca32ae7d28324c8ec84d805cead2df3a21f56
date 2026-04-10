@@ -1,0 +1,29 @@
+src/content/projects/soon.md
+  f97acfa63d9035c0 9,11,13
+src/components/About.astro
+  f97acfa63d9035c0 3-5,15-18
+src/content/projects/tom-dixon.md
+  f97acfa63d9035c0 12,14
+src/content/projects/white-cube.md
+  f97acfa63d9035c0 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "affca32ae7d28324c8ec84d805cead2df3a21f56",
+  "prompts": {
+    "f97acfa63d9035c0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cdfed327-31b9-419f-9e25-f0c20ea0c2d2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Kyle Shepherd",
+      "messages": [],
+      "total_additions": 14,
+      "total_deletions": 16,
+      "accepted_lines": 1379,
+      "overriden_lines": 1
+    }
+  }
+}
