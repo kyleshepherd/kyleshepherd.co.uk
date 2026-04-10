@@ -1,0 +1,63 @@
+src/content/projects/pagesmith.md
+  f97acfa63d9035c0 1-13
+src/components/Projects.astro
+  f97acfa63d9035c0 1-74
+src/components/Header.astro
+  f97acfa63d9035c0 1-5
+src/content/projects/checkpnt.md
+  f97acfa63d9035c0 1-14
+src/content/projects/tom-dixon.md
+  f97acfa63d9035c0 1-16
+src/pages/index.astro
+  f97acfa63d9035c0 2-11,13-19
+src/components/HandIcon.astro
+  f97acfa63d9035c0 1-20
+src/content.config.ts
+  f97acfa63d9035c0 1-16
+src/components/About.astro
+  f97acfa63d9035c0 1-21
+src/content/projects/belstaff.md
+  f97acfa63d9035c0 1-12
+src/layouts/Base.astro
+  f97acfa63d9035c0 1-53
+src/content/projects/appare.md
+  f97acfa63d9035c0 1-12
+src/components/FilmGrain.astro
+  f97acfa63d9035c0 1-41
+src/components/PinIcon.astro
+  f97acfa63d9035c0 1-27
+src/content/projects/white-cube.md
+  f97acfa63d9035c0 1-13
+src/components/Footer.astro
+  f97acfa63d9035c0 1-29
+src/components/Contact.astro
+  f97acfa63d9035c0 1-15
+src/content/projects/noir96.md
+  f97acfa63d9035c0 1-12
+src/components/Hero.astro
+  f97acfa63d9035c0 1-26
+src/content/projects/soon.md
+  f97acfa63d9035c0 1-14
+src/content/projects/beddows-design.md
+  f97acfa63d9035c0 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "7db6961d2d2f72af192d6aa3775cdae10e188dda",
+  "prompts": {
+    "f97acfa63d9035c0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cdfed327-31b9-419f-9e25-f0c20ea0c2d2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Kyle Shepherd",
+      "messages": [],
+      "total_additions": 607,
+      "total_deletions": 21,
+      "accepted_lines": 1815,
+      "overriden_lines": 0
+    }
+  }
+}
