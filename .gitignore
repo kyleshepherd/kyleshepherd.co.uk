@@ -3,10 +3,12 @@ node_modules
 # Output
 .output
 .vercel
+dist
 .netlify
 .wrangler
-/.svelte-kit
-/build
+
+# Astro
+.astro
 
 # OS
 .DS_Store
@@ -17,7 +19,3 @@ Thumbs.db
 .env.*
 !.env.example
 !.env.test
-
-# Vite
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
