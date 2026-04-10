@@ -1,27 +1,32 @@
-# SvelteKit Skeleton
+# kyleshepherd.co.uk
 
-Just a super simple SvelteKit starter with TypeScript, TailwindCSS, Prettier and ESLint setup, using tilt and pnpm.
+Personal portfolio site built with Astro, Tailwind CSS v4, and TypeScript. Deployed as a fully static site on Vercel.
 
-Setup with `@sveltejs/adapter-auto` to enable easy deploys to Cloudflare Pages, Netlify and Vercel.
+## Stack
 
-## Using this skeleton
-
-Run `npx degit "git@github.com:kyleshepherd/svelte-kit-skeleton.git" my-app` to clone the starter.
+- **Astro 6** — static site generator
+- **Tailwind CSS v4** — styling
+- **TypeScript** — type safety
+- **Sharp** — build-time image optimization
+- **Vercel** — static hosting (free tier)
 
 ## Developing
 
-Once you've created a project and installed dependencies with `pnpm install`, start a development server:
-
 ```bash
-tilt up && tilt down
+pnpm install
+pnpm dev
 ```
+
+Runs at `http://localhost:3000`.
 
 ## Building
 
-To create a production version of your app:
-
 ```bash
-pnpm run build
+pnpm build
 ```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Output goes to `dist/` and `.vercel/output/static/`.
+
+## Content
+
+Projects are managed as markdown files with typed frontmatter in `src/content/projects/`. The schema is defined in `src/content.config.ts`.
