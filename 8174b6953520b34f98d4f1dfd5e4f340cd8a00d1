@@ -1,0 +1,23 @@
+docs/superpowers/specs/2026-04-10-astro-rebuild-design.md
+  1df971be1147d471 1-197
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "8174b6953520b34f98d4f1dfd5e4f340cd8a00d1",
+  "prompts": {
+    "1df971be1147d471": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "58f3faaa-0f3a-4cc7-8624-1a56f137691c",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Kyle Shepherd",
+      "messages": [],
+      "total_additions": 198,
+      "total_deletions": 1,
+      "accepted_lines": 197,
+      "overriden_lines": 0
+    }
+  }
+}
