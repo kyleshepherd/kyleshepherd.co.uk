@@ -2,7 +2,7 @@
 name: "Noir96"
 slug: noir96
 projectUrl: "https://noir96.com/"
-image: "/projects/noir96.png"
+image: ../../assets/projects/noir96.png
 techTags: ["SvelteKit", "TailwindCSS", "Sanity CMS", "Vercel"]
 order: 2
 ---

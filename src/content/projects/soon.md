@@ -2,7 +2,7 @@
 name: "SOON_ E-commerce"
 slug: soon
 projectUrl: "https://thisissoon.com/"
-image: "/projects/soon.png"
+image: ../../assets/projects/soon.png
 techTags: ["Go", "React", "E-commerce", "Shopify", "gRPC", "Protobuf", "MUI", "Terraform", "GCP", "GraphQL"]
 order: 4
 ---

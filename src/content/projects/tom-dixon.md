@@ -2,7 +2,7 @@
 name: "Tom Dixon"
 slug: tom-dixon
 projectUrl: "http://tomdixon.net/"
-image: "/projects/tomdixon.png"
+image: ../../assets/projects/tomdixon.png
 techTags: ["SvelteKit", "Go", "React", "E-commerce", "Shopify", "GCP", "Terraform", "TailwindCSS"]
 order: 3
 ---

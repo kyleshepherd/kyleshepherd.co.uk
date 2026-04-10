@@ -2,7 +2,7 @@
 name: "Checkpnt"
 slug: checkpnt
 projectUrl: "https://checkpnt.app/"
-image: "/projects/checkpnt.png"
+image: ../../assets/projects/checkpnt.png
 techTags: ["SvelteKit", "TailwindCSS", "oRPC", "Postgres", "Meilisearch"]
 order: 1
 ---

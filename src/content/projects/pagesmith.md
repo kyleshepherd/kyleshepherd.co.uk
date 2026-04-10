@@ -1,7 +1,7 @@
 ---
 name: "Pagesmith"
 slug: pagesmith
-image: "/projects/pagesmith.png"
+image: ../../assets/projects/pagesmith.png
 techTags: ["Svelte", "Sapper", "E-commerce", "Shopify", "Firebase", "REST"]
 order: 7
 ---

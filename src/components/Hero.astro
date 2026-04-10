@@ -1,5 +1,7 @@
 ---
+import { Image } from 'astro:assets';
 import HandIcon from './HandIcon.astro';
+import kyleImg from '../assets/Kyle.jpeg';
 ---
 
 <div class="component-padding xxs:pt-3 relative pt-2 sm:pt-5">
@@ -18,9 +20,10 @@ import HandIcon from './HandIcon.astro';
       Kitt</a
     >.
   </h1>
-  <img
-    alt="A picture of me, Kyle Shepherd"
-    src="/imgs/Kyle.jpeg"
+  <Image
+    alt="Kyle Shepherd"
+    src={kyleImg}
+    loading="eager"
     class="-z-10 -mt-8 opacity-35 grayscale sm:mr-0 sm:ml-auto md:-mt-24 md:max-w-[65%] xl:-mt-32 xl:max-w-[min(1000px,_45vw)]"
   />
 </div>

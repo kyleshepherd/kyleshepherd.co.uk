@@ -2,7 +2,7 @@
 name: "Belstaff"
 slug: belstaff
 projectUrl: "https://www.belstaff.com/"
-image: "/projects/belstaff.png"
+image: ../../assets/projects/belstaff.png
 techTags: ["Svelte", "Sapper", "Go", "E-commerce", "Shopify", "GCP", "Terraform", "React", "GraphQL"]
 order: 6
 ---

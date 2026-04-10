@@ -2,7 +2,7 @@
 name: "Appare Yosakoi Vancouver"
 slug: appare
 projectUrl: "https://yosakoivancouver.com/"
-image: "/projects/appare.png"
+image: ../../assets/projects/appare.png
 techTags: ["SvelteKit", "Sanity CMS", "Netlify"]
 order: 9
 ---

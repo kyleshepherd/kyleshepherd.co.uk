@@ -1,7 +1,7 @@
 ---
 name: "White Cube"
 slug: white-cube
-image: "/projects/whitecube.png"
+image: ../../assets/projects/whitecube.png
 techTags: ["React", "Node.js", "AWS", "Terraform", "Sequelize", "TailwindCSS", "GraphQL"]
 order: 5
 ---

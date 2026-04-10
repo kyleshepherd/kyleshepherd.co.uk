@@ -2,7 +2,7 @@
 name: "Beddows Design"
 slug: beddows-design
 projectUrl: "https://beddowsdesign.com/"
-image: "/projects/beddowsdesign.png"
+image: ../../assets/projects/beddowsdesign.png
 techTags: ["SvelteKit", "Sanity CMS", "Vercel"]
 order: 8
 ---
