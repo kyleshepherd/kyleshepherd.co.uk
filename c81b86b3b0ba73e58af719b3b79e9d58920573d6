@@ -1,0 +1,23 @@
+package.json
+  f97acfa63d9035c0 15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "c81b86b3b0ba73e58af719b3b79e9d58920573d6",
+  "prompts": {
+    "f97acfa63d9035c0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cdfed327-31b9-419f-9e25-f0c20ea0c2d2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Kyle Shepherd",
+      "messages": [],
+      "total_additions": 315,
+      "total_deletions": 0,
+      "accepted_lines": 315,
+      "overriden_lines": 0
+    }
+  }
+}
