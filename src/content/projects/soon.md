@@ -1,14 +1,13 @@
 ---
 name: "SOON_ E-commerce"
 slug: soon
-projectUrl: "https://thisissoon.com/"
 image: ../../assets/projects/soon.png
 techTags: ["Go", "React", "E-commerce", "Shopify", "gRPC", "Protobuf", "MUI", "Terraform", "GCP", "GraphQL"]
 order: 4
 ---
 
-I've worked on internal projects as part of SOON_'s e-commerce accelerator products - including frontend libraries, custom CMS and e-commerce tools and asset services.
+I worked across SOON_'s internal e-commerce accelerator products — frontend libraries, a custom CMS, and asset services that powered client sites like Tom Dixon and Belstaff.
 
-I have led full-stack development on projects such as adding an Asset Manager and Image Focal Points to our CMS, both from feature design to deployment. This involved me creating components and functionality using React and MUI, and then implementing the backend using Protocol Buffers, Go and gRPC.
+I led full-stack features from design to deployment, including an Asset Manager, Image Focal Points, and Campaign Blocks for the CMS. The frontend work was in React and MUI; the backend in Go with gRPC and Protocol Buffers, where backwards compatibility was a key constraint.
 
-I also led the development of adding a new resource, Campaign Blocks, to our CMS. This involved me adding new object and function definitions in Protocol Buffers, and then implementing these functions as gRPC calls in our Go-based backend, whilst ensuring backwards compatibility. This allowed our CMS users to add a variety of content blocks to product list pages and product detail pages across their site, in order to enable the client to wholly curate their frontend experience to the end-users.
+Campaign Blocks gave CMS users the ability to curate content across product list and detail pages, putting editorial control fully in the client's hands.
