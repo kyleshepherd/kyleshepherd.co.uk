@@ -1,6 +1,19 @@
 ---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import About from '../components/About.astro';
+import Projects from '../components/Projects.astro';
+import Contact from '../components/Contact.astro';
+
+const projects = (await getCollection('projects')).sort(
+  (a, b) => a.data.order - b.data.order
+);
 ---
-<html lang="en">
-  <head><title>Test</title></head>
-  <body><h1>Astro works</h1></body>
-</html>
+
+<Base>
+  <Hero />
+  <About />
+  <Projects projects={projects} />
+  <Contact />
+</Base>

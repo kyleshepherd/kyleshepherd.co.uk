@@ -1,0 +1,74 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { render } from 'astro:content';
+
+interface Props {
+  projects: CollectionEntry<'projects'>[];
+}
+
+const { projects } = Astro.props;
+
+const rendered = await Promise.all(
+  projects.map(async (project) => {
+    const { Content } = await render(project);
+    return { data: project.data, Content };
+  })
+);
+---
+
+<div class="component-padding mt-8 sm:mt-12">
+  <h2 class="xs:text-3xl font-serif text-2xl sm:text-4xl">Projects</h2>
+  <div class="mt-2 flex flex-col gap-8 sm:mt-6 md:gap-12">
+    {rendered.map(({ data, Content }) => (
+      <div class="group flex flex-wrap justify-between gap-4 border-b border-white/50 pb-8 lg:flex-nowrap lg:gap-6 lg:pb-12">
+        <div class="basis-full lg:basis-1/2">
+          <h3 class="mb-2 font-mono text-2xl sm:text-3xl 2xl:text-4xl">{data.name}</h3>
+          {data.projectUrl ? (
+            <a
+              href={data.projectUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Link to ${data.name} website`}
+            >
+              <img
+                alt={`Screenshot of the ${data.name} website`}
+                src={data.image}
+                class="mx-auto opacity-60 grayscale-100 transition-all group-hover:opacity-100 group-hover:grayscale-0"
+              />
+            </a>
+          ) : (
+            <img
+              alt={`Screenshot of the ${data.name} website`}
+              src={data.image}
+              class="mx-auto opacity-60 grayscale-100 transition-all group-hover:opacity-100 group-hover:grayscale-0"
+            />
+          )}
+        </div>
+        <div class="flex basis-full flex-col items-start justify-between lg:basis-1/2">
+          <div class="md:mt-9 2xl:mt-10">
+            {data.techTags.length > 0 && (
+              <div class="mb-2 flex flex-wrap gap-2 md:mb-4">
+                {data.techTags.map((tag) => (
+                  <span class="rounded-xl border border-white/20 px-4 py-1 text-sm">{tag}</span>
+                ))}
+              </div>
+            )}
+            <div class="text-lg [&>p+p]:mt-4 2xl:text-xl">
+              <Content />
+            </div>
+          </div>
+          {data.projectUrl && (
+            <a
+              href={data.projectUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link mt-4 font-serif text-xl"
+            >
+              View Site
+            </a>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
