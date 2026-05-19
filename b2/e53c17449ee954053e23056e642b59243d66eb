@@ -1,0 +1,19 @@
+cv/styles/cv.css
+  s_3c7e76bc8370e9::t_64270953317bf0 1-152
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.10",
+  "base_commit_sha": "b2e53c17449ee954053e23056e642b59243d66eb",
+  "prompts": {},
+  "sessions": {
+    "s_3c7e76bc8370e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4cbd2fea-2365-41fe-9dc5-97a2e4282af0",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Kyle Shepherd <kyleshepherd13@gmail.com>"
+    }
+  }
+}
