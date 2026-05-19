@@ -1,0 +1,21 @@
+cv/scaffold.test.ts
+  s_3c7e76bc8370e9::t_3fb50b64cd5445 1-47
+cv/scaffold.ts
+  s_3c7e76bc8370e9::t_81df856633a558 1-40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.10",
+  "base_commit_sha": "f0a3e3948fb0a0e603ce3eff3ac0a197daffceaf",
+  "prompts": {},
+  "sessions": {
+    "s_3c7e76bc8370e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4cbd2fea-2365-41fe-9dc5-97a2e4282af0",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Kyle Shepherd <kyleshepherd13@gmail.com>"
+    }
+  }
+}
