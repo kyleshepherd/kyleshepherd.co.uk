@@ -9,11 +9,10 @@ contact:
   phone: "+44 7951 979 162"
 
 summary: >
-  Senior Software Engineer with over 7 years of experience building products and developer tools.
-  I work primarily in TypeScript and React, with deep experience in GraphQL, Node.js and Go on the backend.
-  I've built real-time features using WebSockets, internal tooling that integrates with Linear and Slack,
-  and have deployed to GCP using Kubernetes and Terraform. I care about crafting interfaces that feel
-  fast and polished.
+  Senior Software Engineer with over 7 years of experience building products and developer tools
+  across the stack. I work primarily in TypeScript and React, with deep experience in GraphQL,
+  Node.js and Go on the backend, and have deployed to GCP and AWS using Kubernetes and Terraform.
+  I care about crafting interfaces that feel fast and polished.
 
 experience:
   - company: Kitt
