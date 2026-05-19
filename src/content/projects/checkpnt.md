@@ -4,7 +4,7 @@ slug: checkpnt
 projectUrl: "https://checkpnt.app/"
 image: ../../assets/projects/checkpnt.png
 techTags: ["SvelteKit", "TailwindCSS", "oRPC", "Postgres", "Meilisearch"]
-order: 1
+order: 2
 ---
 
 A social game review platform, allowing users to track and share the games they play. This is a passion project of mine primarily built to learn and experiment with new technologies and ideas.

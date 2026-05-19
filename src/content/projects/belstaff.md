@@ -4,7 +4,7 @@ slug: belstaff
 projectUrl: "https://www.belstaff.com/"
 image: ../../assets/projects/belstaff.png
 techTags: ["Svelte", "Sapper", "Go", "E-commerce", "Shopify", "GCP", "Terraform", "React", "GraphQL"]
-order: 6
+order: 7
 ---
 
 A full replatforming of luxury British fashion brand Belstaff's e-commerce website. I was responsible for building responsive components and pages, as well as integrating Shopify and our custom CMS into the Sapper/Svelte frontend.

@@ -4,7 +4,7 @@ slug: beddows-design
 projectUrl: "https://beddowsdesign.com/"
 image: ../../assets/projects/beddowsdesign.png
 techTags: ["SvelteKit", "Sanity CMS", "Vercel"]
-order: 8
+order: 9
 ---
 
 A freelance project for Alex Beddows, a multi-disciplinary artist working across 3D game art and photography. He needed a portfolio site that could showcase both disciplines in a cohesive and flexible way.

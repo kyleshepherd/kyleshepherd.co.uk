@@ -4,7 +4,7 @@ slug: appare
 projectUrl: "https://yosakoivancouver.com/"
 image: ../../assets/projects/appare.png
 techTags: ["SvelteKit", "Sanity CMS", "Netlify"]
-order: 9
+order: 10
 ---
 
 A freelance project for Appare Yosakoi, a Vancouver-based dance group. They needed a website to showcase their performances and provide a way for events and organizations to enquire about bookings.

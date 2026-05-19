@@ -3,7 +3,7 @@ name: "Pagesmith"
 slug: pagesmith
 image: ../../assets/projects/pagesmith.png
 techTags: ["Svelte", "Sapper", "E-commerce", "Shopify", "Firebase", "REST"]
-order: 7
+order: 8
 ---
 
 A collaborative project between SOON_, Wonderbly and Faber & Faber. The goal was to create a web app to allow users to create customised poetry gift books for their loved ones.

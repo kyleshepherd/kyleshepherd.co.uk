@@ -3,7 +3,7 @@ name: "White Cube"
 slug: white-cube
 image: ../../assets/projects/whitecube.png
 techTags: ["React", "Node.js", "AWS", "Terraform", "Sequelize", "TailwindCSS", "GraphQL"]
-order: 5
+order: 6
 ---
 
 SOON_ were brought in to help White Cube prepare their bespoke inventory web-app for release to their internal team, after they were let down by another agency. The application was created to take their inventory system away from a Microsoft Access database that required a VPN to access and port it into a web-app.

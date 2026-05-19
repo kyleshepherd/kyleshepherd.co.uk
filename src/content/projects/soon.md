@@ -3,7 +3,7 @@ name: "SOON_ E-commerce"
 slug: soon
 image: ../../assets/projects/soon.png
 techTags: ["Go", "React", "E-commerce", "Shopify", "gRPC", "Protobuf", "MUI", "Terraform", "GCP", "GraphQL"]
-order: 4
+order: 5
 ---
 
 I worked across SOON_'s internal e-commerce accelerator products — frontend libraries, a custom CMS, and asset services that powered client sites like Tom Dixon and Belstaff.

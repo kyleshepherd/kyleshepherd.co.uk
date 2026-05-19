@@ -4,7 +4,7 @@ slug: tom-dixon
 projectUrl: "http://tomdixon.net/"
 image: ../../assets/projects/tomdixon.png
 techTags: ["SvelteKit", "Go", "React", "E-commerce", "Shopify", "GCP", "Terraform", "TailwindCSS"]
-order: 3
+order: 4
 ---
 
 This project was a large-scale e-commerce transformation at SOON_, built on Shopify and powered by our custom in-house platform, SOON_CMS.
