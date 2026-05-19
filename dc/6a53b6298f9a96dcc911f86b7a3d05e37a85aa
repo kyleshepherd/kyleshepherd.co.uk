@@ -1,0 +1,20 @@
+cv/templates/cover-letter.md
+  s_3c7e76bc8370e9::t_d6e974c39610e0 1-2,13
+  s_3c7e76bc8370e9::t_a5e95d47270cf4 3-12,14-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.10",
+  "base_commit_sha": "dc6a53b6298f9a96dcc911f86b7a3d05e37a85aa",
+  "prompts": {},
+  "sessions": {
+    "s_3c7e76bc8370e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4cbd2fea-2365-41fe-9dc5-97a2e4282af0",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Kyle Shepherd <kyleshepherd13@gmail.com>"
+    }
+  }
+}
