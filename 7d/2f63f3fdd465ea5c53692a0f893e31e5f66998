@@ -1,0 +1,22 @@
+package.json
+  s_3c7e76bc8370e9::t_6e4e46f4ce0d5a 12
+  s_3c7e76bc8370e9::t_a3ec162b2383b3 18-21
+pnpm-lock.yaml
+  ai_agent 9-11,19,21-22,39-40,45-46,48-52,55-56,693,777-778,802-803,904-905,1007-1010,1075-1079,1104-1106,1341-1342,1441-1442,1504-1506,1806,1812,1814-1819,1842,1846,1850,1854,1861,2401,2403-2406,2417,2424,2429,2508,2586,2697-2700,2827-2828,2848-2849,3232,3244,3331,3333,3426-3427,3689
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.10",
+  "base_commit_sha": "7d2f63f3fdd465ea5c53692a0f893e31e5f66998",
+  "prompts": {},
+  "sessions": {
+    "s_3c7e76bc8370e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4cbd2fea-2365-41fe-9dc5-97a2e4282af0",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Kyle Shepherd <kyleshepherd13@gmail.com>"
+    }
+  }
+}
