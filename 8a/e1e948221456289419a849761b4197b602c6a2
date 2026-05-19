@@ -1,0 +1,21 @@
+cv/template-cover.ts
+  s_3c7e76bc8370e9::t_26ecdb7bd4e65c 1-46
+cv/template-cover.test.ts
+  s_3c7e76bc8370e9::t_02eddd2d591342 1-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.10",
+  "base_commit_sha": "8ae1e948221456289419a849761b4197b602c6a2",
+  "prompts": {},
+  "sessions": {
+    "s_3c7e76bc8370e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4cbd2fea-2365-41fe-9dc5-97a2e4282af0",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Kyle Shepherd <kyleshepherd13@gmail.com>"
+    }
+  }
+}
