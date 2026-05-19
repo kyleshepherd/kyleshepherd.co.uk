@@ -1,0 +1,23 @@
+cv/fixtures/minimal-cv.md
+  s_3c7e76bc8370e9::t_06c2cbbb522a0a 1-22
+cv/render.test.ts
+  s_3c7e76bc8370e9::t_dca035be7d4947 1-31
+cv/render.ts
+  s_3c7e76bc8370e9::t_c4200073b3fc4f 1-80
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.10",
+  "base_commit_sha": "9b3f4a437a2bb76423e9b7b6c62259ca94362fce",
+  "prompts": {},
+  "sessions": {
+    "s_3c7e76bc8370e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4cbd2fea-2365-41fe-9dc5-97a2e4282af0",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Kyle Shepherd <kyleshepherd13@gmail.com>"
+    }
+  }
+}
