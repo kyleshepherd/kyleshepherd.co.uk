@@ -1,0 +1,20 @@
+.claude/skills/new-application/SKILL.md
+  s_3c7e76bc8370e9::t_d2f002ded2a9cc 82,84,86,88-92,94-100,102
+  s_3c7e76bc8370e9::t_e419c4d4872d3e 104,106,108-116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.10",
+  "base_commit_sha": "41a9fc485aa3594d6cd7820ac40965327b1c4124",
+  "prompts": {},
+  "sessions": {
+    "s_3c7e76bc8370e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4cbd2fea-2365-41fe-9dc5-97a2e4282af0",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Kyle Shepherd <kyleshepherd13@gmail.com>"
+    }
+  }
+}
