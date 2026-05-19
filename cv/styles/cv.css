@@ -1,0 +1,152 @@
+:root {
+  --color-bg:   oklch(0.2002 0 0);
+  --color-fg:   oklch(0.899 0.0133 82.4);
+  --color-rule: oklch(0.899 0.0133 82.4 / 0.5);
+  --font-serif: "PPEditorialOld", serif;
+  --font-sans:  "PPNeueMontreal", sans-serif;
+  --font-mono:  "PPMondwest", monospace;
+}
+
+@page {
+  size: A4;
+  margin: 14mm 14mm 16mm 14mm;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  font-size: 10.5pt;
+  line-height: 1.45;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+p { margin: 0 0 0.5em; }
+ul { margin: 0; padding-left: 1.1em; }
+li { margin-bottom: 0.25em; }
+strong { font-weight: 700; }
+em { font-style: italic; }
+
+/* --- Header --- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16mm;
+  margin-bottom: 6mm;
+}
+.identity .name {
+  font-family: var(--font-serif);
+  font-size: 30pt;
+  line-height: 1;
+  margin: 0 0 2mm;
+}
+.identity .role {
+  font-family: var(--font-sans);
+  font-size: 12pt;
+  margin: 0;
+}
+.contact {
+  text-align: right;
+  font-size: 9.5pt;
+}
+.contact p { margin: 0; }
+
+/* --- Summary --- */
+.summary {
+  font-size: 10.5pt;
+  margin-bottom: 4mm;
+}
+
+/* --- Section heading --- */
+.section { margin-top: 6mm; }
+.section-heading {
+  font-family: var(--font-serif);
+  font-size: 14pt;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 0 3mm;
+  padding-top: 3mm;
+  border-top: 1px solid var(--color-rule);
+}
+
+/* --- Experience --- */
+.exp-entry { margin-bottom: 5mm; page-break-inside: avoid; }
+.exp-header { margin-bottom: 1.5mm; }
+.exp-title {
+  font-family: var(--font-serif);
+  font-size: 13pt;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2mm;
+  align-items: baseline;
+}
+.exp-company {
+  font-family: var(--font-sans);
+  font-size: 10.5pt;
+  font-weight: 700;
+}
+.exp-dates {
+  font-family: var(--font-sans);
+  font-style: italic;
+  font-size: 10pt;
+  margin-left: auto;
+}
+.exp-prior-role {
+  font-size: 9.5pt;
+  margin: 0.5mm 0 0;
+  display: flex;
+  gap: 2mm;
+  align-items: baseline;
+}
+.exp-prior-role .exp-dates { font-size: 9.5pt; }
+.exp-highlights, .exp-bullets { margin-top: 1.5mm; }
+
+/* --- Education --- */
+.edu-entry {
+  display: grid;
+  grid-template-columns: 38mm 1fr;
+  gap: 4mm;
+  margin-bottom: 4mm;
+  page-break-inside: avoid;
+}
+.edu-institution {
+  font-family: var(--font-serif);
+  font-size: 12pt;
+  margin: 0 0 1mm;
+}
+.edu-qualification { font-size: 9.5pt; margin: 0 0 1mm; }
+.edu-dates { font-size: 9.5pt; font-style: italic; margin: 0; }
+.edu-bullets { margin: 0; }
+
+/* --- Skills (2-column list) --- */
+.skills-list {
+  list-style: disc;
+  columns: 2;
+  column-gap: 8mm;
+}
+
+/* --- Socials --- */
+.socials-list {
+  display: grid;
+  grid-template-columns: 30mm 1fr;
+  gap: 1mm 4mm;
+  margin: 0;
+}
+.socials-list dt { font-weight: 700; }
+.socials-list dd { margin: 0; }
+
+/* --- Cover letter --- */
+.cover-body { margin-top: 4mm; font-size: 10.5pt; }
+.cover-body p { margin: 0 0 0.7em; }
+.cover-salutation { font-size: 10.5pt; margin: 4mm 0 3mm; }
+.cover-signoff { margin-top: 4mm; }
+.cover-signoff p { margin: 0; }
+
+p > a { color: inherit; text-decoration: underline; }
