@@ -1,0 +1,21 @@
+.gitignore
+  s_3c7e76bc8370e9::t_29616b4fbb0978 3-5
+package.json
+  s_3c7e76bc8370e9::t_f070b832924f5b 8-12,30-33,35-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.10",
+  "base_commit_sha": "421a5efd762a844b06afff43719aee4aef47976d",
+  "prompts": {},
+  "sessions": {
+    "s_3c7e76bc8370e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4cbd2fea-2365-41fe-9dc5-97a2e4282af0",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Kyle Shepherd <kyleshepherd13@gmail.com>"
+    }
+  }
+}
