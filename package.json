@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "astro dev --port 3000",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "cv:render": "tsx cv/render.ts",
+    "cv:templates": "tsx cv/render.ts --in cv/templates/cv.md && tsx cv/render.ts --in cv/templates/cover-letter.md",
+    "cv:new": "tsx cv/scaffold.ts",
+    "test": "vitest run"
   },
   "dependencies": {
     "@astrojs/vercel": "^10.0.4",
@@ -23,7 +27,13 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.2",
+    "@types/markdown-it": "^14.1.2",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0",
+    "playwright": "^1.49.0",
     "tailwindcss": "^4.2.2",
-    "typescript": "^5.8.3"
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.3",
+    "vitest": "^2.1.0"
   }
 }

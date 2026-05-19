@@ -1,5 +1,8 @@
 node_modules
 
+# CV pipeline output
+cv/**/*.pdf
+
 # Output
 .output
 .vercel
