@@ -19,21 +19,21 @@ html, body {
   background: var(--color-bg);
   color: var(--color-fg);
   font-family: var(--font-sans);
-  font-size: 10pt;
-  line-height: 1.4;
+  font-size: 10.5pt;
+  line-height: 1.45;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
 
 body {
-  padding: 11mm 12mm 12mm 12mm;
+  padding: 13mm 13mm 13mm 13mm;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
 
-p { margin: 0 0 0.4em; }
-ul { margin: 0; padding-left: 1em; }
-li { margin-bottom: 0.15em; }
+p { margin: 0 0 0.5em; }
+ul { margin: 0; padding-left: 1.1em; }
+li { margin-bottom: 0.25em; }
 strong { font-weight: 700; }
 em { font-style: italic; }
 
@@ -43,7 +43,7 @@ em { font-style: italic; }
   justify-content: space-between;
   align-items: flex-start;
   gap: 16mm;
-  margin-bottom: 4mm;
+  margin-bottom: 5mm;
 }
 .identity .name {
   font-family: var(--font-serif);
@@ -64,37 +64,26 @@ em { font-style: italic; }
 
 /* --- Summary --- */
 .summary {
-  font-size: 10pt;
-  margin-bottom: 3mm;
+  font-size: 10.5pt;
+  margin-bottom: 4mm;
 }
 
 /* --- Section heading --- */
-.section { margin-top: 4mm; }
+.section { margin-top: 5mm; }
 .section-heading {
   font-family: var(--font-serif);
-  font-size: 13pt;
+  font-size: 14pt;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  margin: 0 0 2mm;
-  padding-top: 2mm;
+  margin: 0 0 3mm;
+  padding-top: 3mm;
   border-top: 1px solid var(--color-rule);
   page-break-after: avoid;
   break-after: avoid;
 }
 
-/* Force Education (and everything that follows) onto page 2 */
-.section.education {
-  page-break-before: always;
-  break-before: page;
-  margin-top: 0;
-}
-.section.education .section-heading {
-  border-top: none;
-  padding-top: 0;
-}
-
 /* --- Experience --- */
-.exp-entry { margin-bottom: 3.5mm; page-break-inside: avoid; }
+.exp-entry { margin-bottom: 4.5mm; page-break-inside: avoid; }
 .exp-header { margin-bottom: 1.5mm; }
 .exp-title {
   font-family: var(--font-serif);
@@ -117,21 +106,21 @@ em { font-style: italic; }
   margin-left: auto;
 }
 .exp-prior-role {
-  font-size: 9pt;
-  margin: 0.5mm 0 0;
+  font-size: 9.5pt;
+  margin: 1mm 0 0;
   display: flex;
   gap: 2mm;
   align-items: baseline;
 }
-.exp-prior-role .exp-dates { font-size: 9pt; }
-.exp-highlights, .exp-bullets { margin-top: 1mm; }
+.exp-prior-role .exp-dates { font-size: 9.5pt; }
+.exp-highlights, .exp-bullets { margin-top: 1.5mm; }
 
 /* --- Education --- */
 .edu-entry {
   display: grid;
-  grid-template-columns: 38mm 1fr;
+  grid-template-columns: 42mm 1fr;
   gap: 4mm;
-  margin-bottom: 2.5mm;
+  margin-bottom: 3.5mm;
   page-break-inside: avoid;
 }
 .edu-institution {
