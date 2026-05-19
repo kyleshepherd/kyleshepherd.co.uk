@@ -58,6 +58,19 @@ Create `~/personal/kyleshepherd-applications/<slug>/notes.md` with this structur
 
 Capture the JD verbatim so link rotting doesn't matter later.
 
+### 2.5. Ask clarifying questions before drafting
+
+This is a **required gate**. Before writing any cover letter prose or modifying the CV, look at the hooks captured in `notes.md` and ask the user about anything where:
+
+- A hook from the JD has no obvious match in Kyle's CV / `src/content/projects/*.md`, and inventing detail would be the alternative.
+- A hook has a *plausible but vague* match where you don't know the specifics (e.g. JD says "real-time collaborative editor"; Kyle has WebSocket Planning Poker — but you don't know if he wants to draw a parallel to editor work specifically, or stay general).
+- The JD highlights a company/team detail (mission, recent launch, named team) you want to reference but don't know Kyle's actual feelings about.
+- There's a specific story, metric, or example that would strengthen a paragraph but isn't on record anywhere.
+
+Ask via AskUserQuestion when the choice is small/discrete (3–4 options); ask in plain text when open-ended (e.g. "Tell me about any Linear-API integrations you've shipped beyond the Planning Poker bot — features, scale, who used it"). Batch related questions so you ask once, not in a drip.
+
+Do **not** proceed to drafting until the user has answered or explicitly said "skip — use what's on file." Anything left unanswered should be flagged in the draft (e.g. `[Kyle: confirm specifics]`) rather than invented.
+
 ### 3. Tailor `cv.md`
 
 Light touch. The CV is mostly stable across applications. Make these edits only:
