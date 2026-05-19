@@ -79,33 +79,41 @@ Light touch. The CV is mostly stable across applications. Make these edits only:
 - Optionally reorder `skills` to lead with the most relevant 3–4 for this role.
 - Do **not** touch experience, education, achievements, hobbies, or socials.
 
-### 4. Draft `cover-letter.md`
+### 4. Brief Kyle for the cover letter — do NOT draft prose
 
-Replace the body with a role-specific letter. Use these guidelines:
+**Do not write the cover letter body.** Kyle writes his own cover letters; AI-drafted prose comes out generic and hollow even with good hooks (see [[cover-letters-human-authored]] in user memory). Instead, produce a structured *advisory brief* alongside the existing `cover-letter.md` so Kyle can write the prose himself with the relevant material in front of him.
 
-- **Voice:** match Kyle's existing cover letter style — concrete, calm, slightly informal. Look at the master template for structure and reference past committed applications in `~/personal/kyleshepherd-applications/*/cover-letter.md` if any exist.
-- **Structure:** 5–7 paragraphs.
-  - **Paragraph 1**: opening — excited to apply, brief positioning.
-  - **Paragraph 2**: experience summary (clients, tech).
-  - **Paragraph 3**: current role at Kitt, framed to map to the JD.
-  - **Paragraphs 4–5**: tailored — pull 2–3 hooks from `notes.md` and connect them to specific experience. Reference projects from `src/content/projects/*.md` for concrete evidence when relevant.
-  - **Penultimate**: a side project paragraph (Checkpnt is the default; swap in Tarkov TK or Planning Poker tools if more relevant to the role).
-  - **Closing**: why this company specifically, what you'd love to contribute, polite sign-off.
-- **Frontmatter:** update `recipient`, `salutation` (e.g. "Dear Stripe Hiring Team,"), and `role` (the company's title).
+Update `cover-letter.md` so:
 
-### 5. Show drafts for review
+- **Frontmatter is filled in correctly:** `recipient`, `salutation` (e.g. "Dear Linear Hiring Team,"), and `role` (Kyle's positioning, usually unchanged — only update if there's an obvious better match).
+- **The body is replaced with a structured brief**, paragraph-by-paragraph. For each paragraph, give:
+  - The *intent* of the paragraph (what it should communicate)
+  - Specific *material* to consider weaving in — JD hooks, concrete experience to reference, the projects/companies that fit
+  - Anything to avoid (e.g. "don't lean on X unless Kyle has a specific story")
 
-Before rendering, present three things to the user:
+Suggested brief structure (Kyle can rearrange):
+1. **Opening** — what to communicate (excitement, positioning angle); any specific tie-in to the company worth mentioning up front.
+2. **Experience summary** — which clients/tech to lead with given this role's tilt.
+3. **Current role at Kitt** — which Kitt details map to the JD (specific feature, scope, scale).
+4. **Tailored hooks** — for each of 2–3 strongest hooks from `notes.md`, the specific experience that backs it (project, role, story Kyle confirmed in clarifying questions).
+5. **Side project** — which project (Checkpnt / Tarkov TK / Planning Poker / etc.) makes most sense and why.
+6. **Closing** — what about this company specifically is worth saying genuinely; flag things *not* to say (e.g. avoid empty "real privilege" register).
 
-1. The drafted `notes.md` (full content).
-2. The diff against the master `cv.md` (what changed and why).
-3. The full new `cover-letter.md` body.
+Format the brief as markdown headings + bullets, not finished prose. Kyle writes the actual paragraphs.
 
-Ask whether to render or revise. Do not render without explicit approval.
+### 5. Show research output, then hand over
 
-### 6. Render
+Present three things to Kyle:
 
-On approval, run:
+1. The drafted `notes.md` (full content) — JD verbatim, hooks, mapping.
+2. The diff against the master `cv.md` — what changed and why (usually just `skills` reorder).
+3. The cover letter **brief** (the structured advisory in `cover-letter.md`) — not prose, but the material Kyle has to work with.
+
+Then stop and hand over. Kyle writes the cover letter prose himself. Do not draft it unless he explicitly asks.
+
+### 6. Render (after Kyle writes the cover letter)
+
+Once Kyle has written `cover-letter.md` and confirmed he's happy with both files, run:
 
 ```sh
 pnpm cv:render --in ~/personal/kyleshepherd-applications/<slug>/cv.md
