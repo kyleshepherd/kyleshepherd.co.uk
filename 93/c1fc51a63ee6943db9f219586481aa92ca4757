@@ -1,0 +1,44 @@
+src/components/About.astro
+  s_3c7e76bc8370e9::t_cb8bfadc636b9b 3
+src/components/Projects.astro
+  s_3c7e76bc8370e9::t_57f17d0523a2bf 21
+src/content/projects/white-cube.md
+  s_3c7e76bc8370e9::t_57d43dc5dcd236 6
+src/content/projects/belstaff.md
+  s_3c7e76bc8370e9::t_c860dc5d56a9c1 7
+src/content/projects/soon.md
+  s_3c7e76bc8370e9::t_bb98956058082b 6
+src/content/projects/pagesmith.md
+  s_3c7e76bc8370e9::t_ff21840c0ad0fc 6
+src/content/projects/checkpnt.md
+  s_3c7e76bc8370e9::t_f3823d789ef184 7
+src/content/projects/beddows-design.md
+  s_3c7e76bc8370e9::t_2aef6adb38a252 7
+src/content/projects/kitt.md
+  s_3c7e76bc8370e9::t_b8bf5cc99b926c 1-4,6-11,13
+  s_3c7e76bc8370e9::t_0bfe4a93d183f4 5,12,14
+src/components/Hero.astro
+  s_3c7e76bc8370e9::t_6195230b7efd0b 13
+src/content/projects/appare.md
+  s_3c7e76bc8370e9::t_cc769762c1a5ef 7
+src/content/projects/noir96.md
+  s_3c7e76bc8370e9::t_afa71d49ab9e91 7
+src/content/projects/tom-dixon.md
+  s_3c7e76bc8370e9::t_319ef80958e9c8 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.10",
+  "base_commit_sha": "93c1fc51a63ee6943db9f219586481aa92ca4757",
+  "prompts": {},
+  "sessions": {
+    "s_3c7e76bc8370e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4cbd2fea-2365-41fe-9dc5-97a2e4282af0",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Kyle Shepherd <kyleshepherd13@gmail.com>"
+    }
+  }
+}
