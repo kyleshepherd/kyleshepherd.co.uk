@@ -29,7 +29,7 @@
     "@tailwindcss/vite": "^4.2.2",
     "@types/markdown-it": "^14.1.2",
     "gray-matter": "^4.0.3",
-    "markdown-it": "^14.1.0",
+    "markdown-it": "^14.2.0",
     "playwright": "^1.49.0",
     "tailwindcss": "^4.2.2",
     "tsx": "^4.20.0",
