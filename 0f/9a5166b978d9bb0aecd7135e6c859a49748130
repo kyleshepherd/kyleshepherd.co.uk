@@ -1,0 +1,25 @@
+src/content/projects/checkpnt.md
+  s_7dfd39f305ec7e::t_1adc7b13ba44ae 12
+  s_7dfd39f305ec7e::t_e23c6f6cdd8598 13-14
+  s_7dfd39f305ec7e::t_2f7b619f03c617 6
+cv/templates/cv.md
+  s_7dfd39f305ec7e::t_e179c480a1dd62 79
+cv/templates/cover-letter.md
+  s_7dfd39f305ec7e::t_15f548dc6f7504 25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "0f9a5166b978d9bb0aecd7135e6c859a49748130",
+  "prompts": {},
+  "sessions": {
+    "s_7dfd39f305ec7e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "45edf2f6-8211-40dc-8cb3-619335644bfb",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Kyle Shepherd <kyleshepherd13@gmail.com>"
+    }
+  }
+}
