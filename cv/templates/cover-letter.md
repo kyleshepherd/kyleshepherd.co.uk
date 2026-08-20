@@ -22,7 +22,7 @@ I am currently working at Kitt, a tech-powered managed office company, as a Seni
 
 [Optional: a concrete example of impact, drawn from a specific project that resonates with the JD.]
 
-Outside of work, I built Checkpnt (checkpnt.app) — a full-stack social game reviewing platform using SvelteKit, oRPC, PostgreSQL and Meilisearch. Building it end-to-end gave me hands-on experience with search integration, social features and designing an engaging user experience from scratch.
+Outside of work, I built Checkpnt (checkpnt.app) — a full-stack social game reviewing platform using SvelteKit, oRPC and PostgreSQL, which I have since launched on iOS and Android with React Native. Building it end-to-end gave me hands-on experience with mobile release pipelines, social features and designing an engaging user experience from scratch.
 
 [Closing paragraph — why this company specifically, what you'd love to contribute.]
 

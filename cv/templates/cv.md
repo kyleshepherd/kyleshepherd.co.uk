@@ -76,7 +76,7 @@ education:
 achievements:
   - Created Tarkov TK, a Discord bot written in Go that has amassed over 1000 server installs in 5 years.
   - Built two real-time Planning Poker tools integrating with Linear for story point estimation. A Slack bot at SOON_, and a web app using Next.js and WebSockets at Kitt. Used by engineering teams at both companies.
-  - Created Checkpnt (checkpnt.app), a social game review platform built with SvelteKit, oRPC, PostgreSQL and Meilisearch.
+  - Created Checkpnt (checkpnt.app), a social game review platform built with SvelteKit, oRPC and PostgreSQL, with iOS and Android apps built in React Native.
   - Awarded Unity student scholarship to attend GDC 2018 in San Francisco.
 
 skills:
