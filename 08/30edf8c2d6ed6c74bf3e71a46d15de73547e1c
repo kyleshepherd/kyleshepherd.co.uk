@@ -1,0 +1,59 @@
+src/content/projects/appare.md
+  s_8efe93f066e3e8::t_3cac66b4461500 10,12
+  s_8efe93f066e3e8::t_bd6b4216e7484b 7
+src/components/About.astro
+  s_8efe93f066e3e8::t_d9179fc9731907 16-25
+  s_8efe93f066e3e8::t_151bb8d3b9fa46 26-27
+src/content/projects/checkpnt.md
+  s_8efe93f066e3e8::t_bd6b4216e7484b 7
+  s_8efe93f066e3e8::t_93fa1f4450ca36 16
+src/content/projects/beddows-design.md
+  s_8efe93f066e3e8::t_bd6b4216e7484b 7
+  s_8efe93f066e3e8::t_cdd59fac934922 10,12
+src/content/projects/noir96.md
+  s_8efe93f066e3e8::t_bd6b4216e7484b 7
+src/content/projects/white-cube.md
+  s_8efe93f066e3e8::t_dcdce23e792e4c 13
+  s_8efe93f066e3e8::t_bd6b4216e7484b 6
+  s_8efe93f066e3e8::t_e5fb146b25e00c 11
+src/content/projects/tom-dixon.md
+  s_8efe93f066e3e8::t_f2bb145b099751 14
+  s_8efe93f066e3e8::t_bd6b4216e7484b 7
+src/content/projects/soon.md
+  s_8efe93f066e3e8::t_98e8610ca9e28f 13
+  s_8efe93f066e3e8::t_7f37fd49aae403 9
+  s_8efe93f066e3e8::t_bd6b4216e7484b 6
+src/content/projects/reeve.md
+  s_8efe93f066e3e8::t_986378b87f6a72 14
+  s_8efe93f066e3e8::t_cd4ac88d56c31f 1-9,11,13
+  s_8efe93f066e3e8::t_90b16324cb3789 10,12
+src/content/projects/pagesmith.md
+  s_8efe93f066e3e8::t_bd6b4216e7484b 6
+  s_8efe93f066e3e8::t_e4655cfe0378bf 9
+src/components/Contact.astro
+  s_8efe93f066e3e8::t_1117d8dd8159ca 12
+src/content/projects/kitt.md
+  s_8efe93f066e3e8::t_bd6b4216e7484b 7
+  s_8efe93f066e3e8::t_60e3905d7b9c84 10
+  s_8efe93f066e3e8::t_f7bb4d4b89078b 14
+CLAUDE.md
+  s_8efe93f066e3e8::t_a73ca96b752efd 1-54
+src/content/projects/belstaff.md
+  s_8efe93f066e3e8::t_bd6b4216e7484b 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0830edf8c2d6ed6c74bf3e71a46d15de73547e1c",
+  "prompts": {},
+  "sessions": {
+    "s_8efe93f066e3e8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c2955230-efdb-4e2b-a3bd-26a14dc08871",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Kyle Shepherd <kyleshepherd13@gmail.com>"
+    }
+  }
+}
