@@ -1,0 +1,19 @@
+src/content/projects/reeve.md
+  s_b4e4cc3161c6c4::t_69833066f223f2 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7763b9f445fe95ed494a5a675b6ac6595df58726",
+  "prompts": {},
+  "sessions": {
+    "s_b4e4cc3161c6c4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "985dbd37-2fc3-4137-abc0-1ae73b620f18",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Kyle Shepherd <kyleshepherd13@gmail.com>"
+    }
+  }
+}
